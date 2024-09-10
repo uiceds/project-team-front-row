@@ -11,14 +11,14 @@ authors:
     name: Justin Rebholz
     initials: JR
     orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    mastodon: johndoe
-    mastodon-server: mastodon.social
-    email: john.doe@something.com
+    twitter: jrebholz12
+    mastodon: jrebholz12
+    mastodon-server: jrebholz.social
+    email: rebholz4@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
+      - Department of CEE, University of Illinois
     funders:
-      - Grant XXXXXXXX
+      - Grant N/A
   - github: janeroe
     name: Jane Roe
     initials: JR
