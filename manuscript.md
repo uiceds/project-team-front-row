@@ -8,7 +8,7 @@ lang: en-US
 date-meta: '2024-09-10'
 author-meta:
 - Justin Rebholz
-- Cameron Kimber
+- Jane Roe
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,8 +23,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-10" />
   <meta name="citation_publication_date" content="2024-09-10" />
   <meta property="article:published_time" content="2024-09-10" />
-  <meta name="dc.modified" content="2024-09-10T17:52:21+00:00" />
-  <meta property="article:modified_time" content="2024-09-10T17:52:21+00:00" />
+  <meta name="dc.modified" content="2024-09-10T17:57:24+00:00" />
+  <meta property="article:modified_time" content="2024-09-10T17:57:24+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,8 +34,9 @@ header-includes: |
   <meta name="citation_author" content="Justin Rebholz" />
   <meta name="citation_author_institution" content="Department of CEE, University of Illinois" />
   <meta name="twitter:creator" content="@jrebholz12" />
-  <meta name="citation_author" content="Cameron Kimber" />
-  <meta name="citation_author_institution" content="Department of CEE, University of Illinois" />
+  <meta name="citation_author" content="Jane Roe" />
+  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <link rel="canonical" href="https://uiceds.github.io/project-team-front-row/" />
   <meta property="og:url" content="https://uiceds.github.io/project-team-front-row/" />
@@ -43,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/afe6159cdd6dec5d8d4064cb897956a779dc8531/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/afe6159cdd6dec5d8d4064cb897956a779dc8531/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/afe6159cdd6dec5d8d4064cb897956a779dc8531/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/4baee4cd66dee5bdf9aae17e5aac2f56f6dcb35b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/4baee4cd66dee5bdf9aae17e5aac2f56f6dcb35b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/4baee4cd66dee5bdf9aae17e5aac2f56f6dcb35b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/afe6159cdd6dec5d8d4064cb897956a779dc8531/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/4baee4cd66dee5bdf9aae17e5aac2f56f6dcb35b/))
 was automatically generated
-from [uiceds/project-team-front-row@afe6159](https://github.com/uiceds/project-team-front-row/tree/afe6159cdd6dec5d8d4064cb897956a779dc8531)
+from [uiceds/project-team-front-row@4baee4c](https://github.com/uiceds/project-team-front-row/tree/4baee4cd66dee5bdf9aae17e5aac2f56f6dcb35b)
 on September 10, 2024.
 </em></small>
 
@@ -91,22 +92,22 @@ on September 10, 2024.
      · Funded by Grant N/A
   </small>
 
-+ **Cameron Kimber**
++ **Jane Roe**
   ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ckimber2](https://github.com/ckimber2)
+    [janeroe](https://github.com/janeroe)
     <br>
   <small>
-     Department of CEE, University of Illinois
+     Department of Something, University of Whatever; Department of Whatever, University of Something
   </small>
 
 
 ::: {#correspondence}
 ✉ — Correspondence possible via [GitHub Issues](https://github.com/uiceds/project-team-front-row/issues)
 or email to
-Cameron Kimber \<ckimber2@illinois.edu\>.
+Jane Roe \<jane.roe@whatever.edu\>.
 
 
 :::

@@ -10,9 +10,9 @@
     "date-meta": "2024-09-10",
     "author-meta": [
       "Justin Rebholz",
-      "Cameron Kimber"
+      "Jane Roe"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta name=\"dc.title\" content=\"Manuscript Title\" />\n<meta name=\"citation_title\" content=\"Manuscript Title\" />\n<meta property=\"og:title\" content=\"Manuscript Title\" />\n<meta property=\"twitter:title\" content=\"Manuscript Title\" />\n<meta name=\"dc.date\" content=\"2024-09-10\" />\n<meta name=\"citation_publication_date\" content=\"2024-09-10\" />\n<meta property=\"article:published_time\" content=\"2024-09-10\" />\n<meta name=\"dc.modified\" content=\"2024-09-10T17:52:21+00:00\" />\n<meta property=\"article:modified_time\" content=\"2024-09-10T17:52:21+00:00\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Justin Rebholz\" />\n<meta name=\"citation_author_institution\" content=\"Department of CEE, University of Illinois\" />\n<meta name=\"twitter:creator\" content=\"@jrebholz12\" />\n<meta name=\"citation_author\" content=\"Cameron Kimber\" />\n<meta name=\"citation_author_institution\" content=\"Department of CEE, University of Illinois\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://uiceds.github.io/project-team-front-row/\" />\n<meta property=\"og:url\" content=\"https://uiceds.github.io/project-team-front-row/\" />\n<meta property=\"twitter:url\" content=\"https://uiceds.github.io/project-team-front-row/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://uiceds.github.io/project-team-front-row/\" />\n<meta name=\"citation_pdf_url\" content=\"https://uiceds.github.io/project-team-front-row/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://uiceds.github.io/project-team-front-row/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://uiceds.github.io/project-team-front-row/v/afe6159cdd6dec5d8d4064cb897956a779dc8531/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://uiceds.github.io/project-team-front-row/v/afe6159cdd6dec5d8d4064cb897956a779dc8531/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://uiceds.github.io/project-team-front-row/v/afe6159cdd6dec5d8d4064cb897956a779dc8531/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->\n",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta name=\"dc.title\" content=\"Manuscript Title\" />\n<meta name=\"citation_title\" content=\"Manuscript Title\" />\n<meta property=\"og:title\" content=\"Manuscript Title\" />\n<meta property=\"twitter:title\" content=\"Manuscript Title\" />\n<meta name=\"dc.date\" content=\"2024-09-10\" />\n<meta name=\"citation_publication_date\" content=\"2024-09-10\" />\n<meta property=\"article:published_time\" content=\"2024-09-10\" />\n<meta name=\"dc.modified\" content=\"2024-09-10T17:57:24+00:00\" />\n<meta property=\"article:modified_time\" content=\"2024-09-10T17:57:24+00:00\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Justin Rebholz\" />\n<meta name=\"citation_author_institution\" content=\"Department of CEE, University of Illinois\" />\n<meta name=\"twitter:creator\" content=\"@jrebholz12\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://uiceds.github.io/project-team-front-row/\" />\n<meta property=\"og:url\" content=\"https://uiceds.github.io/project-team-front-row/\" />\n<meta property=\"twitter:url\" content=\"https://uiceds.github.io/project-team-front-row/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://uiceds.github.io/project-team-front-row/\" />\n<meta name=\"citation_pdf_url\" content=\"https://uiceds.github.io/project-team-front-row/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://uiceds.github.io/project-team-front-row/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://uiceds.github.io/project-team-front-row/v/4baee4cd66dee5bdf9aae17e5aac2f56f6dcb35b/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://uiceds.github.io/project-team-front-row/v/4baee4cd66dee5bdf9aae17e5aac2f56f6dcb35b/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://uiceds.github.io/project-team-front-row/v/4baee4cd66dee5bdf9aae17e5aac2f56f6dcb35b/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->\n",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -24,7 +24,7 @@
   "manubot": {
     "date": "2024-09-10",
     "date_long": "September 10, 2024",
-    "generated": "2024-09-10T17:52:21+00:00",
+    "generated": "2024-09-10T17:57:24+00:00",
     "generated_date_long": "September 10, 2024",
     "randomize_author_order": false,
     "authors": [
@@ -45,17 +45,19 @@
         ]
       },
       {
-        "github": "ckimber2",
-        "name": "Cameron Kimber",
-        "initials": "CK",
+        "github": "janeroe",
+        "name": "Jane Roe",
+        "initials": "JR",
         "orcid": "XXXX-XXXX-XXXX-XXXX",
-        "email": "ckimber2@illinois.edu",
+        "email": "jane.roe@whatever.edu",
         "affiliations": [
-          "Department of CEE, University of Illinois"
+          "Department of Something, University of Whatever",
+          "Department of Whatever, University of Something"
         ],
         "corresponding": true,
         "affiliation_numbers": [
-          1
+          2,
+          3
         ]
       }
     ],
@@ -63,6 +65,14 @@
       {
         "affiliation": "Department of CEE, University of Illinois",
         "affiliation_number": 1
+      },
+      {
+        "affiliation": "Department of Something, University of Whatever",
+        "affiliation_number": 2
+      },
+      {
+        "affiliation": "Department of Whatever, University of Something",
+        "affiliation_number": 3
       }
     ],
     "ci_source": {
@@ -70,15 +80,15 @@
       "repo_slug": "uiceds/project-team-front-row",
       "repo_owner": "uiceds",
       "repo_name": "project-team-front-row",
-      "commit": "afe6159cdd6dec5d8d4064cb897956a779dc8531",
-      "triggering_commit": "afe6159cdd6dec5d8d4064cb897956a779dc8531",
-      "build_url": "https://github.com/uiceds/project-team-front-row/commit/afe6159cdd6dec5d8d4064cb897956a779dc8531/checks",
-      "job_url": "https://github.com/uiceds/project-team-front-row/actions/runs/10797929343"
+      "commit": "4baee4cd66dee5bdf9aae17e5aac2f56f6dcb35b",
+      "triggering_commit": "4baee4cd66dee5bdf9aae17e5aac2f56f6dcb35b",
+      "build_url": "https://github.com/uiceds/project-team-front-row/commit/4baee4cd66dee5bdf9aae17e5aac2f56f6dcb35b/checks",
+      "job_url": "https://github.com/uiceds/project-team-front-row/actions/runs/10797993275"
     },
     "html_url": "https://uiceds.github.io/project-team-front-row/",
     "pdf_url": "https://uiceds.github.io/project-team-front-row/manuscript.pdf",
-    "html_url_versioned": "https://uiceds.github.io/project-team-front-row/v/afe6159cdd6dec5d8d4064cb897956a779dc8531/",
-    "pdf_url_versioned": "https://uiceds.github.io/project-team-front-row/v/afe6159cdd6dec5d8d4064cb897956a779dc8531/manuscript.pdf",
+    "html_url_versioned": "https://uiceds.github.io/project-team-front-row/v/4baee4cd66dee5bdf9aae17e5aac2f56f6dcb35b/",
+    "pdf_url_versioned": "https://uiceds.github.io/project-team-front-row/v/4baee4cd66dee5bdf9aae17e5aac2f56f6dcb35b/manuscript.pdf",
     "manubot_version": "0.6.1",
     "rootstock_commit": null,
     "manuscript_stats": {
