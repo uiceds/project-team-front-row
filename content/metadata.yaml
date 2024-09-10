@@ -10,15 +10,15 @@ authors:
   - github: jrebholz12
     name: Justin Rebholz
     initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
+    #orcid: XXXX-XXXX-XXXX-XXXX
     twitter: jrebholz12
-    mastodon: jrebholz12
-    mastodon-server: jrebholz.social
+    #mastodon: jrebholz12
+    #mastodon-server: jrebholz.social
     email: rebholz4@illinois.edu
     affiliations:
       - Department of CEE, University of Illinois
-    funders:
-      - Grant N/A
+    # funders:
+    #  - Grant N/A
   - github: janeroe
     name: Jane Roe
     initials: JR
