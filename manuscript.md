@@ -7,7 +7,7 @@ keywords:
 lang: en-US
 date-meta: '2024-09-10'
 author-meta:
-- John Doe
+- Justin Rebholz
 - Jane Roe
 header-includes: |
   <!--
@@ -23,15 +23,15 @@ header-includes: |
   <meta name="dc.date" content="2024-09-10" />
   <meta name="citation_publication_date" content="2024-09-10" />
   <meta property="article:published_time" content="2024-09-10" />
-  <meta name="dc.modified" content="2024-09-10T17:18:36+00:00" />
-  <meta property="article:modified_time" content="2024-09-10T17:18:36+00:00" />
+  <meta name="dc.modified" content="2024-09-10T17:27:14+00:00" />
+  <meta property="article:modified_time" content="2024-09-10T17:27:14+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
+  <meta name="citation_author" content="Justin Rebholz" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="twitter:creator" content="@johndoe" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/05e6a54c718654062330994c32ab94533c5acc50/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/05e6a54c718654062330994c32ab94533c5acc50/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/05e6a54c718654062330994c32ab94533c5acc50/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/03fc6449eb0d290691e684f78a5574a1c8da0a54/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/03fc6449eb0d290691e684f78a5574a1c8da0a54/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/03fc6449eb0d290691e684f78a5574a1c8da0a54/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/05e6a54c718654062330994c32ab94533c5acc50/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/03fc6449eb0d290691e684f78a5574a1c8da0a54/))
 was automatically generated
-from [uiceds/project-team-front-row@05e6a54](https://github.com/uiceds/project-team-front-row/tree/05e6a54c718654062330994c32ab94533c5acc50)
+from [uiceds/project-team-front-row@03fc644](https://github.com/uiceds/project-team-front-row/tree/03fc6449eb0d290691e684f78a5574a1c8da0a54)
 on September 10, 2024.
 </em></small>
 
@@ -81,12 +81,12 @@ on September 10, 2024.
 
 
 
-+ **John Doe**
++ **Justin Rebholz**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [johndoe](https://github.com/johndoe)
+    [jrebholz12](https://github.com/jrebholz12)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [johndoe](https://twitter.com/johndoe)
     · ![Mastodon icon](images/mastodon.svg){.inline_icon width=16 height=16}
