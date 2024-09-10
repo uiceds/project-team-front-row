@@ -10,21 +10,20 @@ authors:
   - github: jrebholz12
     name: Justin Rebholz
     initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
+    #orcid: XXXX-XXXX-XXXX-XXXX
     twitter: jrebholz12
-    mastodon: jrebholz12
-    mastodon-server: jrebholz.social
+    #mastodon: jrebholz12
+    #mastodon-server: jrebholz.social
     email: rebholz4@illinois.edu
     affiliations:
       - Department of CEE, University of Illinois
     funders:
       - Grant N/A
-  - github: ckimber2
+  - github: ckimber2 
     name: Cameron Kimber
     initials: CK
     orcid: XXXX-XXXX-XXXX-XXXX
     email: ckimber2@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Department of CEE, University of Illinois
     corresponding: true
