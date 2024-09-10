@@ -10,6 +10,7 @@ author-meta:
 - Justin Rebholz
 - Cameron Kimber
 - Hannah Daggett
+- Riley Kelch
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -24,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-10" />
   <meta name="citation_publication_date" content="2024-09-10" />
   <meta property="article:published_time" content="2024-09-10" />
-  <meta name="dc.modified" content="2024-09-10T18:00:34+00:00" />
-  <meta property="article:modified_time" content="2024-09-10T18:00:34+00:00" />
+  <meta name="dc.modified" content="2024-09-10T18:07:24+00:00" />
+  <meta property="article:modified_time" content="2024-09-10T18:07:24+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,15 +42,18 @@ header-includes: |
   <meta name="citation_author" content="Hannah Daggett" />
   <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="Riley Kelch" />
+  <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering" />
+  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <link rel="canonical" href="https://uiceds.github.io/project-team-front-row/" />
   <meta property="og:url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta property="twitter:url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/25547f790af43a74c155b35fba3ae8deabb589b5/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/25547f790af43a74c155b35fba3ae8deabb589b5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/25547f790af43a74c155b35fba3ae8deabb589b5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/ed52075800795878681a842de91ab6fb0ead9af0/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/ed52075800795878681a842de91ab6fb0ead9af0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/ed52075800795878681a842de91ab6fb0ead9af0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +75,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/25547f790af43a74c155b35fba3ae8deabb589b5/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/ed52075800795878681a842de91ab6fb0ead9af0/))
 was automatically generated
-from [uiceds/project-team-front-row@25547f7](https://github.com/uiceds/project-team-front-row/tree/25547f790af43a74c155b35fba3ae8deabb589b5)
+from [uiceds/project-team-front-row@ed52075](https://github.com/uiceds/project-team-front-row/tree/ed52075800795878681a842de91ab6fb0ead9af0)
 on September 10, 2024.
 </em></small>
 
@@ -117,12 +121,24 @@ on September 10, 2024.
      Department of Civil and Environmental Engineering
   </small>
 
++ **Riley Kelch**
+  ^[✉](#correspondence)^<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [rileykelch](https://github.com/rileykelch)
+    <br>
+  <small>
+     Department of Civil and Environmental Engineering
+  </small>
+
 
 ::: {#correspondence}
 ✉ — Correspondence possible via [GitHub Issues](https://github.com/uiceds/project-team-front-row/issues)
 or email to
 Cameron Kimber \<ckimber2@illinois.edu\>, 
-Hannah Daggett \<hed2@illinois.edu\>.
+Hannah Daggett \<hed2@illinois.edu\>, 
+Riley Kelch \<rjkelch2@illinois.edu\>.
 
 
 :::
