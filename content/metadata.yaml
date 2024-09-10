@@ -10,20 +10,21 @@ authors:
   - github: jrebholz12
     name: Justin Rebholz
     initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
+    #orcid: XXXX-XXXX-XXXX-XXXX
     twitter: jrebholz12
-    mastodon: jrebholz12
-    mastodon-server: jrebholz.social
+    #mastodon: jrebholz12
+    #mastodon-server: jrebholz.social
     email: rebholz4@illinois.edu
     affiliations:
       - Department of CEE, University of Illinois
     funders:
       - Grant N/A
-  - github: hed2
-    name: Hannah Daggett
-    initials: HD
+  - github: janeroe
+    name: Jane Roe
+    initials: JR
     orcid: XXXX-XXXX-XXXX-XXXX
-    email: hed2@illinois.edu
+    email: jane.roe@whatever.edu
     affiliations:
-      - Department of Civil and Environmental Engineering
+      - Department of Something, University of Whatever
+      - Department of Whatever, University of Something
     corresponding: true
