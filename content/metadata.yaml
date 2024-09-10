@@ -19,11 +19,12 @@ authors:
       - Department of CEE, University of Illinois
     funders:
       - Grant N/A
-  - github: ckimber2 
-    name: Cameron Kimber
-    initials: CK
+  - github: janeroe
+    name: Jane Roe
+    initials: JR
     orcid: XXXX-XXXX-XXXX-XXXX
-    email: ckimber2@illinois.edu
+    email: jane.roe@whatever.edu
     affiliations:
-      - Department of CEE, University of Illinois
+      - Department of Something, University of Whatever
+      - Department of Whatever, University of Something
     corresponding: true
