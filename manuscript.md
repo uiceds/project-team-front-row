@@ -1,5 +1,5 @@
 ---
-title: Manuscript Title
+title: Team Front Row Project Title
 keywords:
 - markdown
 - publishing
@@ -16,15 +16,15 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta name="dc.title" content="Team Front Row Project Title" />
+  <meta name="citation_title" content="Team Front Row Project Title" />
+  <meta property="og:title" content="Team Front Row Project Title" />
+  <meta property="twitter:title" content="Team Front Row Project Title" />
   <meta name="dc.date" content="2024-09-10" />
   <meta name="citation_publication_date" content="2024-09-10" />
   <meta property="article:published_time" content="2024-09-10" />
-  <meta name="dc.modified" content="2024-09-10T17:57:24+00:00" />
-  <meta property="article:modified_time" content="2024-09-10T17:57:24+00:00" />
+  <meta name="dc.modified" content="2024-09-10T17:57:52+00:00" />
+  <meta property="article:modified_time" content="2024-09-10T17:57:52+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/4baee4cd66dee5bdf9aae17e5aac2f56f6dcb35b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/4baee4cd66dee5bdf9aae17e5aac2f56f6dcb35b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/4baee4cd66dee5bdf9aae17e5aac2f56f6dcb35b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/1ece7164638328200070375ed7b79689d02b1234/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/1ece7164638328200070375ed7b79689d02b1234/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/1ece7164638328200070375ed7b79689d02b1234/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/4baee4cd66dee5bdf9aae17e5aac2f56f6dcb35b/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/1ece7164638328200070375ed7b79689d02b1234/))
 was automatically generated
-from [uiceds/project-team-front-row@4baee4c](https://github.com/uiceds/project-team-front-row/tree/4baee4cd66dee5bdf9aae17e5aac2f56f6dcb35b)
+from [uiceds/project-team-front-row@1ece716](https://github.com/uiceds/project-team-front-row/tree/1ece7164638328200070375ed7b79689d02b1234)
 on September 10, 2024.
 </em></small>
 
