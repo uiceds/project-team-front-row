@@ -11,7 +11,7 @@ authors:
     name: Justin Rebholz
     initials: JR
     #orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: jrebholz12
+    #twitter: jrebholz12
     #mastodon: jrebholz12
     #mastodon-server: jrebholz.social
     email: rebholz4@illinois.edu
@@ -23,7 +23,7 @@ authors:
   - github: ckimber2
     name: Cameron Kimber
     initials: CK
-    orcid: XXXX-XXXX-XXXX-XXXX
+    #orcid: XXXX-XXXX-XXXX-XXXX
     email: ckimber2@illinois.edu
     affiliations:
       - Department of CEE, University of Illinois
@@ -31,7 +31,7 @@ authors:
   - github: hed2
     name: Hannah Daggett
     initials: HD
-    orcid: XXXX-XXXX-XXXX-XXXX
+    #orcid: XXXX-XXXX-XXXX-XXXX
     email: hed2@illinois.edu
     affiliations:
       - Department of Civil and Environmental Engineering
@@ -39,7 +39,7 @@ authors:
   - github: rileykelch
     name: Riley Kelch
     initials: RK
-    orcid: XXXX-XXXX-XXXX-XXXX
+    #orcid: XXXX-XXXX-XXXX-XXXX
     email: rjkelch2@illinois.edu
     affiliations:
       - Department of Civil and Environmental Engineering
