@@ -1,11 +1,11 @@
 ---
-title: Team Front Row Project Title
+title: Analysis of Traffic Fatality Records
 keywords:
 - markdown
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-09-10'
+date-meta: '2024-09-27'
 author-meta:
 - Justin Rebholz
 - Cameron Kimber
@@ -18,15 +18,15 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="Team Front Row Project Title" />
-  <meta name="citation_title" content="Team Front Row Project Title" />
-  <meta property="og:title" content="Team Front Row Project Title" />
-  <meta property="twitter:title" content="Team Front Row Project Title" />
-  <meta name="dc.date" content="2024-09-10" />
-  <meta name="citation_publication_date" content="2024-09-10" />
-  <meta property="article:published_time" content="2024-09-10" />
-  <meta name="dc.modified" content="2024-09-10T18:07:24+00:00" />
-  <meta property="article:modified_time" content="2024-09-10T18:07:24+00:00" />
+  <meta name="dc.title" content="Analysis of Traffic Fatality Records" />
+  <meta name="citation_title" content="Analysis of Traffic Fatality Records" />
+  <meta property="og:title" content="Analysis of Traffic Fatality Records" />
+  <meta property="twitter:title" content="Analysis of Traffic Fatality Records" />
+  <meta name="dc.date" content="2024-09-27" />
+  <meta name="citation_publication_date" content="2024-09-27" />
+  <meta property="article:published_time" content="2024-09-27" />
+  <meta name="dc.modified" content="2024-09-27T21:16:05+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T21:16:05+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -51,9 +51,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/ed52075800795878681a842de91ab6fb0ead9af0/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/ed52075800795878681a842de91ab6fb0ead9af0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/ed52075800795878681a842de91ab6fb0ead9af0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/a7b0e8221e9fb4ec926f90ee1df11757aa0641aa/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/a7b0e8221e9fb4ec926f90ee1df11757aa0641aa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/a7b0e8221e9fb4ec926f90ee1df11757aa0641aa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -75,10 +75,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/ed52075800795878681a842de91ab6fb0ead9af0/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/a7b0e8221e9fb4ec926f90ee1df11757aa0641aa/))
 was automatically generated
-from [uiceds/project-team-front-row@ed52075](https://github.com/uiceds/project-team-front-row/tree/ed52075800795878681a842de91ab6fb0ead9af0)
-on September 10, 2024.
+from [uiceds/project-team-front-row@a7b0e82](https://github.com/uiceds/project-team-front-row/tree/a7b0e8221e9fb4ec926f90ee1df11757aa0641aa)
+on September 27, 2024.
 </em></small>
 
 
@@ -88,7 +88,7 @@ on September 10, 2024.
 
 
 + **Justin Rebholz**
-  <br>
+  ^[✉](#correspondence)^<br>
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [jrebholz12](https://github.com/jrebholz12)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
@@ -136,6 +136,7 @@ on September 10, 2024.
 ::: {#correspondence}
 ✉ — Correspondence possible via [GitHub Issues](https://github.com/uiceds/project-team-front-row/issues)
 or email to
+Justin Rebholz \<rebholz4@illinois.edu\>, 
 Cameron Kimber \<ckimber2@illinois.edu\>, 
 Hannah Daggett \<hed2@illinois.edu\>, 
 Riley Kelch \<rjkelch2@illinois.edu\>.
@@ -146,7 +147,11 @@ Riley Kelch \<rjkelch2@illinois.edu\>.
 
 ## Abstract {.page_break_before}
 
+The dataset that will be used for this project is the Fatality Analysis Reporting System created by the National Highway Safety Administration. The data will be obtained from the NHTSA’s FARS database, which is publicly accessible.The FARS dataset is available in the CSV format and includes 30k+ instances and 70 columns including: location, date, conditions, and nature of the accident. The dataset our team will be analyzing is from 2015-2016.
 
+Link: https://www.kaggle.com/datasets/usdot/nhtsa-traffic-fatalities/data
+
+Using the FARS dataset we aim to understand the trends in traffic fatalities in a given year and what factors are affecting those trends. We will also look at how the different variables play a role in the severity of the accident and identify geographic regions that are more prone to accidents. The trends in traffic fatalities found through this project can be used to inform policy makers and ultimately decrease the number of traffic fatalities. 
 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
