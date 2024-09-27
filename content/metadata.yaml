@@ -1,5 +1,5 @@
 ---
-title: "Team Front Row Project Title"
+title: "Analysis of Traffic Fatality Records"
 date: null  # Defaults to date generated, but can specify like '2022-10-31'.
 keywords:
   - markdown
@@ -19,6 +19,7 @@ authors:
       - Department of CEE, University of Illinois
     funders:
       - Grant N/A
+    corresponding: true
   - github: ckimber2
     name: Cameron Kimber
     initials: CK
