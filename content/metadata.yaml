@@ -16,9 +16,9 @@ authors:
     #mastodon-server: jrebholz.social
     email: rebholz4@illinois.edu
     affiliations:
-      - Department of CEE, University of Illinois
-    funders:
-      - Grant N/A
+      - Department of Civil and Environmental Engineering, University of Illinois
+    ##funders:
+      ##- Grant N/A
     corresponding: true
   - github: ckimber2
     name: Cameron Kimber
@@ -26,7 +26,7 @@ authors:
     #orcid: XXXX-XXXX-XXXX-XXXX
     email: ckimber2@illinois.edu
     affiliations:
-      - Department of CEE, University of Illinois
+      - Department of Civil and Environmental Engineering, University of Illinois
     corresponding: true
   - github: hed2
     name: Hannah Daggett
@@ -34,7 +34,7 @@ authors:
     #orcid: XXXX-XXXX-XXXX-XXXX
     email: hed2@illinois.edu
     affiliations:
-      - Department of Civil and Environmental Engineering
+      - Department of Civil and Environmental Engineering, University of Illinois
     corresponding: true
   - github: rileykelch
     name: Riley Kelch
@@ -42,6 +42,6 @@ authors:
     #orcid: XXXX-XXXX-XXXX-XXXX
     email: rjkelch2@illinois.edu
     affiliations:
-      - Department of Civil and Environmental Engineering
+      - Department of Civil and Environmental Engineering, University of Illinois
     corresponding: true
 
