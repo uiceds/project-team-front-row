@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-09-27'
+date-meta: '2024-10-24'
 author-meta:
 - Justin Rebholz
 - Cameron Kimber
@@ -22,11 +22,11 @@ header-includes: |
   <meta name="citation_title" content="Analysis of Traffic Fatality Records" />
   <meta property="og:title" content="Analysis of Traffic Fatality Records" />
   <meta property="twitter:title" content="Analysis of Traffic Fatality Records" />
-  <meta name="dc.date" content="2024-09-27" />
-  <meta name="citation_publication_date" content="2024-09-27" />
-  <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T21:43:26+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T21:43:26+00:00" />
+  <meta name="dc.date" content="2024-10-24" />
+  <meta name="citation_publication_date" content="2024-10-24" />
+  <meta property="article:published_time" content="2024-10-24" />
+  <meta name="dc.modified" content="2024-10-24T15:25:12+00:00" />
+  <meta property="article:modified_time" content="2024-10-24T15:25:12+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/43d2a5e14577422974288a990b17c80b69d6a93b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/43d2a5e14577422974288a990b17c80b69d6a93b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/43d2a5e14577422974288a990b17c80b69d6a93b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/ad11afd2699539b294acf6b8102c292375b2328f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/ad11afd2699539b294acf6b8102c292375b2328f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/ad11afd2699539b294acf6b8102c292375b2328f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,10 +71,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/43d2a5e14577422974288a990b17c80b69d6a93b/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/ad11afd2699539b294acf6b8102c292375b2328f/))
 was automatically generated
-from [uiceds/project-team-front-row@43d2a5e](https://github.com/uiceds/project-team-front-row/tree/43d2a5e14577422974288a990b17c80b69d6a93b)
-on September 27, 2024.
+from [uiceds/project-team-front-row@ad11afd](https://github.com/uiceds/project-team-front-row/tree/ad11afd2699539b294acf6b8102c292375b2328f)
+on October 24, 2024.
 </em></small>
 
 
@@ -135,9 +135,19 @@ Riley Kelch \<rjkelch2@illinois.edu\>.
 ## Abstract {.page_break_before}
 
 #### Description
-The dataset that will be used for this project is the Fatality Analysis Reporting System created by the National Highway Safety Administration. The data will be obtained from the NHTSA’s FARS database, which is publicly accessible.The FARS dataset is available in the CSV format and includes 30k+ instances and 70 columns including: location, date, conditions, and nature of the accident. The dataset our team will be analyzing is from 2015-2016.
+The dataset that will be used for this project is the Fatality Analysis Reporting System created by the National Highway Safety Administration. The data will be obtained from the NHTSA’s FARS database, which is publicly accessible.The FARS dataset is available in the CSV format. The specific dataset that our project will be focused on is labeled "accidents" and includes 32K+ instances and 52 columns. The columns descriptions are described in the Fatality Analysis Reporting System (FARS) Analytical User’s Manual 1975-2015. Columns are described in the below table:
 
-Link: <https://www.kaggle.com/datasets/usdot/nhtsa-traffic-fatalities/data>
+| *Column Abbreviation* | Description         | 
+|:-----------------|:-------------:|
+| State | This data element identifies the state in which the crash occurred. The codes are
+from the General Services Administration’s (GSA) publication of worldwide Geographic Location
+Codes (GLC). |
+| ST_CASE | This data element is the unique case number assigned to each crash. It appears
+on each data file and is used to merge information from the data files together. |
+| VE_TOTAL | This data element is the number of contact motor vehicles that the officer reported
+on the PAR as a unit involved in the crash.|
+
+Link: <https://www.kaggle.com/datasets/nhtsa/2015-traffic-fatalities>
 
 #### Plan and Proposal
 Using the FARS dataset we aim to understand the trends in traffic fatalities in a given year and what factors are affecting those trends. We will also look at how the different variables play a role in the severity of the accident and identify geographic regions that are more prone to accidents. The trends in traffic fatalities found through this project can be used to inform policy makers and ultimately decrease the number of traffic fatalities. 
