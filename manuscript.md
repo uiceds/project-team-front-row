@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-24" />
   <meta name="citation_publication_date" content="2024-10-24" />
   <meta property="article:published_time" content="2024-10-24" />
-  <meta name="dc.modified" content="2024-10-24T15:38:29+00:00" />
-  <meta property="article:modified_time" content="2024-10-24T15:38:29+00:00" />
+  <meta name="dc.modified" content="2024-10-24T15:39:37+00:00" />
+  <meta property="article:modified_time" content="2024-10-24T15:39:37+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/9071a56121b1db2c5f8b6be91046d6a4157bf192/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/9071a56121b1db2c5f8b6be91046d6a4157bf192/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/9071a56121b1db2c5f8b6be91046d6a4157bf192/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/f40c8adacaecd6f75de1df8189f9362ae526e3d6/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/f40c8adacaecd6f75de1df8189f9362ae526e3d6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/f40c8adacaecd6f75de1df8189f9362ae526e3d6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/9071a56121b1db2c5f8b6be91046d6a4157bf192/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/f40c8adacaecd6f75de1df8189f9362ae526e3d6/))
 was automatically generated
-from [uiceds/project-team-front-row@9071a56](https://github.com/uiceds/project-team-front-row/tree/9071a56121b1db2c5f8b6be91046d6a4157bf192)
+from [uiceds/project-team-front-row@f40c8ad](https://github.com/uiceds/project-team-front-row/tree/f40c8adacaecd6f75de1df8189f9362ae526e3d6)
 on October 24, 2024.
 </em></small>
 
@@ -137,8 +137,8 @@ Riley Kelch \<rjkelch2@illinois.edu\>.
 #### Description
 The dataset that will be used for this project is the Fatality Analysis Reporting System created by the National Highway Safety Administration. The data will be obtained from the NHTSA’s FARS database, which is publicly accessible.The FARS dataset is available in the CSV format. The specific dataset that our project will be focused on is labeled "accidents" and includes 32K+ instances and 52 columns. The columns descriptions are described in the Fatality Analysis Reporting System (FARS) Analytical User’s Manual 1975-2015. Columns are described in the below table:
 
-| Column | Description         | 
-|:-----------------|:-------------:|
+| Column        | Description         | 
+|:-----------------:|:-------------:|
 | STATE | This data element identifies the state in which the crash occurred. The codes are from the General Services Administration’s (GSA) publication of worldwide Geographic Location Codes (GLC). |
 | ST_CASE | This data element is the unique case number assigned to each crash. It appears on each data file and is used to merge information from the data files together. |
 | VE_TOTAL | This data element is the number of contact motor vehicles that the officer reported on the PAR as a unit involved in the crash.|
