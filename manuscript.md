@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-24" />
   <meta name="citation_publication_date" content="2024-10-24" />
   <meta property="article:published_time" content="2024-10-24" />
-  <meta name="dc.modified" content="2024-10-24T15:50:32+00:00" />
-  <meta property="article:modified_time" content="2024-10-24T15:50:32+00:00" />
+  <meta name="dc.modified" content="2024-10-24T15:53:38+00:00" />
+  <meta property="article:modified_time" content="2024-10-24T15:53:38+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/c3e91a0c4f85e69a36ae7e2281eed4c24150dead/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/c3e91a0c4f85e69a36ae7e2281eed4c24150dead/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/c3e91a0c4f85e69a36ae7e2281eed4c24150dead/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/1c79bfb741926f6d8f66196b22925028d274c69a/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/1c79bfb741926f6d8f66196b22925028d274c69a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/1c79bfb741926f6d8f66196b22925028d274c69a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/c3e91a0c4f85e69a36ae7e2281eed4c24150dead/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/1c79bfb741926f6d8f66196b22925028d274c69a/))
 was automatically generated
-from [uiceds/project-team-front-row@c3e91a0](https://github.com/uiceds/project-team-front-row/tree/c3e91a0c4f85e69a36ae7e2281eed4c24150dead)
+from [uiceds/project-team-front-row@1c79bfb](https://github.com/uiceds/project-team-front-row/tree/1c79bfb741926f6d8f66196b22925028d274c69a)
 on October 24, 2024.
 </em></small>
 
@@ -217,5 +217,10 @@ Link: <https://www.kaggle.com/datasets/nhtsa/2015-traffic-fatalities>
 Using the FARS dataset we aim to understand the trends in traffic fatalities in a given year and what factors are affecting those trends. We will also look at how the different variables play a role in the severity of the accident and identify geographic regions that are more prone to accidents. The trends in traffic fatalities found through this project can be used to inform policy makers and ultimately decrease the number of traffic fatalities. 
 
 
+## References {.page_break_before}
+National Highway Traffic Safety Administration. "2015 Traffic Fatalities." Kaggle, https://www.kaggle.com/datasets/nhtsa/2015-traffic-fatalities. Accessed 24 Oct. 2024.
+
+National Highway Traffic Safety Administration. Fatality Analysis Reporting System (FARS) Analytical User's Manual 1975-2015. U.S. Department of Transportation, Aug. 2016.
+<div id="refs"></div>
 
 
