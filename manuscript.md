@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-24" />
   <meta name="citation_publication_date" content="2024-10-24" />
   <meta property="article:published_time" content="2024-10-24" />
-  <meta name="dc.modified" content="2024-10-24T18:01:50+00:00" />
-  <meta property="article:modified_time" content="2024-10-24T18:01:50+00:00" />
+  <meta name="dc.modified" content="2024-10-24T18:05:40+00:00" />
+  <meta property="article:modified_time" content="2024-10-24T18:05:40+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/1e091addb119dd6c98bea407a0b6823316e11317/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/1e091addb119dd6c98bea407a0b6823316e11317/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/1e091addb119dd6c98bea407a0b6823316e11317/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/573cea19eac5eb10eedbf79fef51c95541c6ddf1/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/573cea19eac5eb10eedbf79fef51c95541c6ddf1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/573cea19eac5eb10eedbf79fef51c95541c6ddf1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/1e091addb119dd6c98bea407a0b6823316e11317/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/573cea19eac5eb10eedbf79fef51c95541c6ddf1/))
 was automatically generated
-from [uiceds/project-team-front-row@1e091ad](https://github.com/uiceds/project-team-front-row/tree/1e091addb119dd6c98bea407a0b6823316e11317)
+from [uiceds/project-team-front-row@573cea1](https://github.com/uiceds/project-team-front-row/tree/573cea19eac5eb10eedbf79fef51c95541c6ddf1)
 on October 24, 2024.
 </em></small>
 
@@ -499,7 +499,7 @@ useful for *warnings* - [manubot.org](https://manubot.org/)
 ## Analysis {.page_break_before}
 
 #### Exploratory Data Analysis
-![Test Image](https://github.com/uiceds/project-team-front-row/blob/873a701035d118bfcbb24b32f7bcdffaf1310205/content/images/TestIMAGE.png){#fig:test-image}
+![Test Image](https://github.com/uiceds/project-team-front-row/blob/873a701035d118bfcbb24b32f7bcdffaf1310205/content/images/TestIMAGE.png "Test Image"){#fig:test-image}
 
 #### Predictive Modeling
 
