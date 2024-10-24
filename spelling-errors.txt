@@ -61,6 +61,7 @@ pariatur
 PEDS
 PERMVIT
 PERNOTMVIT
+png
 proident
 PVH
 qui
@@ -75,6 +76,7 @@ sint
 sunt
 SYS
 tempor
+TestIMAGE
 trafficway
 TWAY
 TYP
