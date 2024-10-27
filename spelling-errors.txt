@@ -1,7 +1,8 @@
 ckimber
 COND
-CSV
+csv
 Daggett
+datapoint
 dataset
 Desc
 EV
@@ -10,6 +11,7 @@ FATALS
 FUNC
 GLC
 hed
+hotspots
 INVL
 jrebholz
 JUR
@@ -37,4 +39,5 @@ TWAY
 TYP
 URB
 VE
+visualtion
 WRK

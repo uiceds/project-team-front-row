@@ -25,6 +25,9 @@ content/01.abstract.md:66:FARS
 content/03.exploratory.md:5:dataset
 content/03.exploratory.md:7:occured
 content/03.exploratory.md:9:Desc
+content/03.exploratory.md:24:hotspots
+content/03.exploratory.md:24:visualtion
+content/03.exploratory.md:28:datapoint
 content/90.back-matter.md:2:kaggle
 content/90.back-matter.md:2:Kaggle
 content/90.back-matter.md:4:FARS
