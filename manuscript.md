@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-10-27T18:32:24+00:00" />
-  <meta property="article:modified_time" content="2024-10-27T18:32:24+00:00" />
+  <meta name="dc.modified" content="2024-10-27T18:37:57+00:00" />
+  <meta property="article:modified_time" content="2024-10-27T18:37:57+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/93aefd7bb51044c85346b3ab9dd6f3da142e75b4/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/93aefd7bb51044c85346b3ab9dd6f3da142e75b4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/93aefd7bb51044c85346b3ab9dd6f3da142e75b4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/7da389cf1ed5d96205bd5f40b1325ecaa24f95ed/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/7da389cf1ed5d96205bd5f40b1325ecaa24f95ed/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/7da389cf1ed5d96205bd5f40b1325ecaa24f95ed/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/93aefd7bb51044c85346b3ab9dd6f3da142e75b4/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/7da389cf1ed5d96205bd5f40b1325ecaa24f95ed/))
 was automatically generated
-from [uiceds/project-team-front-row@93aefd7](https://github.com/uiceds/project-team-front-row/tree/93aefd7bb51044c85346b3ab9dd6f3da142e75b4)
+from [uiceds/project-team-front-row@7da389c](https://github.com/uiceds/project-team-front-row/tree/7da389cf1ed5d96205bd5f40b1325ecaa24f95ed)
 on October 27, 2024.
 </em></small>
 
@@ -229,11 +229,11 @@ From the data, we have interpreted that 32,166 fatal crashes occured in 2015. Ou
 
 We first looked at a map of the United states to plot the fatal accidents vs the drunk driving fatal accidents. This visualtion shows hotspots for both categories. 
 
-  ![US Map](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Map_of_US.png "Map of US (2015)"){#fig:US-map height=3in}
+  ![US Map](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Map_of_US.png "Map of US (2015)"){#fig:US-map height=4in}
 
 We then created a scatter plot to visualize the number of accidents and fatalities per accident for the United States. As seen in the figure, most of the crashes result in only one fatality, however, there are a handful of multiple fatality crashes. The scatter plot annotates the amount of crashes for drunk drivers and sober drivers next to the datapoint. 
 
-  ![Scatter Plot](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Scatter_plot.png "Scatter Plot"){#fig:Scatter-plot height=3in}
+  ![Scatter Plot](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Scatter_plot.png "Scatter Plot"){#fig:Scatter-plot height=4in}
 
 The next factor that we analyzed to understand the data was the specific day of accidents. As seen in the figure below, the highest number of accidents occurred on the weekends. On average, 104 accidents occurred on a given day of a weekend whereas 82 accidents occurred per weekday. Monday and Tuesday have the lowest number of accidents and as the week progresses, the number of accidents increases. 
 
@@ -245,11 +245,11 @@ The portion of accidents due to drunk driving by the day of the week follows sim
 
 Our team also looked at the number of drunk driver accidents per day of the year. See Table 1 for the most popular days for drunk driver accidents. 
 
-  ![DUI Crashes by Day (US)](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/dui_accidents_by_day.png "DUI Crashes by Day (US)"){#fig:dui-by-day height=3in}
+  ![DUI Crashes by Day (US)](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/dui_accidents_by_day.png "DUI Crashes by Day (US)"){#fig:dui-by-day height=4in}
 
 As we conducted our Exploratory Data Analysis, we aimed to focus in on the state of Illinois. Below is the same information as Figure 1, but specific to Illinois for 2015. From this visual, we can see that most crashes are in the areas with larger cities (i.e. Chicago). 
 
-  ![Illinois Map](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Illinois_Accidents.png "Illinois Map (2015)"){#fig:Illinois-map height=3in}
+  ![Illinois Map](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Illinois_Accidents.png "Illinois Map (2015)"){#fig:Illinois-map height=5in}
 
 
 
