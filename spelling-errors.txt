@@ -3,6 +3,7 @@ COND
 CSV
 Daggett
 dataset
+Desc
 EV
 FARS
 FATALS
@@ -21,6 +22,7 @@ milepoint
 MILEPT
 NHS
 NHTSA’s
+occured
 PEDS
 PERMVIT
 PERNOTMVIT

@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-10-27T15:46:59+00:00" />
-  <meta property="article:modified_time" content="2024-10-27T15:46:59+00:00" />
+  <meta name="dc.modified" content="2024-10-27T18:03:50+00:00" />
+  <meta property="article:modified_time" content="2024-10-27T18:03:50+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/56024bb1fa9bba614295254f99b564bcbeec32b1/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/56024bb1fa9bba614295254f99b564bcbeec32b1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/56024bb1fa9bba614295254f99b564bcbeec32b1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/6ed82c539406977f63c1ca8574d2450301c14e70/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/6ed82c539406977f63c1ca8574d2450301c14e70/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/6ed82c539406977f63c1ca8574d2450301c14e70/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/56024bb1fa9bba614295254f99b564bcbeec32b1/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/6ed82c539406977f63c1ca8574d2450301c14e70/))
 was automatically generated
-from [uiceds/project-team-front-row@56024bb](https://github.com/uiceds/project-team-front-row/tree/56024bb1fa9bba614295254f99b564bcbeec32b1)
+from [uiceds/project-team-front-row@6ed82c5](https://github.com/uiceds/project-team-front-row/tree/6ed82c539406977f63c1ca8574d2450301c14e70)
 on October 27, 2024.
 </em></small>
 
@@ -135,7 +135,7 @@ Riley Kelch \<rjkelch2@illinois.edu\>.
 ## Abstract {.page_break_before}
 
 #### Description
-The dataset that will be used for this project is the Fatality Analysis Reporting System created by the National Highway Safety Administration. The data will be obtained from the NHTSA’s FARS database, which is publicly accessible.The FARS dataset is available in the CSV format. The specific dataset that our project will be focused on is labeled "accidents" and includes 32K+ instances and 52 columns. The columns descriptions are described in the Fatality Analysis Reporting System (FARS) Analytical User’s Manual 1975-2015. Columns are described in the below table:
+The dataset that will be used for this project is the Fatality Analysis Reporting System created by the National Highway Safety Administration. The data will be obtained from the NHTSA’s FARS database, which is publicly accessible.The FARS dataset is available in the CSV format. The specific subset data that our project will be focused on is labeled "accidents.csv" and includes 32K+ instances and 52 columns. The columns descriptions are described in the Fatality Analysis Reporting System (FARS) Analytical User’s Manual 1975-2015 and in the below table:
 
 | Column        | Description         | 
 |:-----------------:|:-------------:|
@@ -189,13 +189,15 @@ The dataset that will be used for this project is the Fatality Analysis Reportin
 | WEATHER2 | This data element records the secondary weather condition at the time of the crash. |
 | WRK_ZONE | This data element identifies if the crash occurred in a work zone. |
 | YEAR | This data element records the year in which the crash occurred. |
+Table: Abbreviation Legend.
+{#tbl:constant-digits}
 
 
 
 Link: <https://www.kaggle.com/datasets/nhtsa/2015-traffic-fatalities>
 
 #### Plan and Proposal
-Using the FARS dataset we aim to understand the trends in traffic fatalities in a given year and what factors are affecting those trends. We will also look at how the different variables play a role in the severity of the accident and identify geographic regions that are more prone to accidents. The trends in traffic fatalities found through this project can be used to inform policy makers and ultimately decrease the number of traffic fatalities. 
+Using the FARS dataset, we aim to understand the trends in traffic fatalities in a given year and what factors are affecting those trends. Specifically, we will look to implement safety factors that guard against drunk driving (traffic cameras, sensor systems, DUI checkpoints, etc.) We will also look at how the different variables play a role in the severity of the accident and identify geographic regions that are more prone to accidents. The trends in traffic fatalities found through this project can be used to inform policy makers and ultimately decrease the number of traffic fatalities. 
 
 
 
@@ -206,7 +208,33 @@ Using the FARS dataset we aim to understand the trends in traffic fatalities in 
 
 #### Exploratory Data Analysis
 
-![Incidents vs Hour of Day](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/IncidentsVSHour.png "Incidents vs Hour of Day"){#fig:incidents-vs-hour}
+The dataset that we have chosen describes the details surrounding motor vehicle crashes that have resulted in at least one fatality in the United States during 2015. 
+
+From the data, we have interpreted that 32,166 fatal crashes occured in 2015. Out of the total number of crashes, 26.78 percent of them involved an intoxicated driver. In the state of Illinois, 264 of 914 crashes involved a drunk driver (28.9%). More statistics are found in the table below. 
+
+| Desc (2015)        | Statistic        | 
+|:-----------------:|:-------------:|
+| Crashes (US) | 32,166 |
+| Total Fatalities (US) | 35,092 |
+| Drunk Driver Crashes (US) | 8,617 |
+| Drunk Driver Percentage (US) | 26.78% |
+| Crashes (IL) | 914 |
+| Total Fatalities (IL) | 998 |
+| Drunk Driver Crashes (IL) | 264 |
+| Drunk Driver Percentage (IL) | 28.88% |
+| Most DD Crashes, Dates (US) | 03May, 15Aug, 02Aug, 16Aug |
+| Most Crashes, Dates (IL) | 07Mar, 27Jun, 17Apr |
+Table: Misc Statistics.
+{#tbl:constant-digits}
+
+
+The first factor that we analyzed to understand the data was the time of accidents. As seen in Figure 1, the highest number of accidents occurred on the weekends. On average, 104 accidents occurred on a given day of a weekend whereas 82 accidents occurred per weekday. Monday and Tuesday have the lowest number of accidents and as the week progresses, the number of accidents increases. 
+
+The portion of accidents due to drunk driving by the day of the week follows similar trends. The average ratio of  drunk driving accidents to total number of accidents was 37.47% for the weekend and 21.19% for weekdays. This is most likely due to the fact that drinking is more popular on the weekends. 
+
+![Accidents vs Day of Week](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Accidents_day_of_week.png "Accidents vs Day of Week"){#fig:incidents-vs-day}
+
+
 
 ![DUI vs Non-DUI Accidents by Month and Fatalities](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/DUIvsNon.svg?sanitize=true "DUI vs Non-DUI Accidents by Month and Fatalities"){#fig:DUI-vs-Non}
 
