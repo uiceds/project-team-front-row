@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-10-24'
+date-meta: '2024-10-27'
 author-meta:
 - Justin Rebholz
 - Cameron Kimber
@@ -22,11 +22,11 @@ header-includes: |
   <meta name="citation_title" content="Analysis of Traffic Fatality Records" />
   <meta property="og:title" content="Analysis of Traffic Fatality Records" />
   <meta property="twitter:title" content="Analysis of Traffic Fatality Records" />
-  <meta name="dc.date" content="2024-10-24" />
-  <meta name="citation_publication_date" content="2024-10-24" />
-  <meta property="article:published_time" content="2024-10-24" />
-  <meta name="dc.modified" content="2024-10-24T18:41:31+00:00" />
-  <meta property="article:modified_time" content="2024-10-24T18:41:31+00:00" />
+  <meta name="dc.date" content="2024-10-27" />
+  <meta name="citation_publication_date" content="2024-10-27" />
+  <meta property="article:published_time" content="2024-10-27" />
+  <meta name="dc.modified" content="2024-10-27T14:48:41+00:00" />
+  <meta property="article:modified_time" content="2024-10-27T14:48:41+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/a7e0950d748bf8d8db1f4b7aefedd3cc94919efe/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/a7e0950d748bf8d8db1f4b7aefedd3cc94919efe/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/a7e0950d748bf8d8db1f4b7aefedd3cc94919efe/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/2e5b96757a67d013af933ebd62f43450baa6e634/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/2e5b96757a67d013af933ebd62f43450baa6e634/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/2e5b96757a67d013af933ebd62f43450baa6e634/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,10 +71,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/a7e0950d748bf8d8db1f4b7aefedd3cc94919efe/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/2e5b96757a67d013af933ebd62f43450baa6e634/))
 was automatically generated
-from [uiceds/project-team-front-row@a7e0950](https://github.com/uiceds/project-team-front-row/tree/a7e0950d748bf8d8db1f4b7aefedd3cc94919efe)
-on October 24, 2024.
+from [uiceds/project-team-front-row@2e5b967](https://github.com/uiceds/project-team-front-row/tree/2e5b96757a67d013af933ebd62f43450baa6e634)
+on October 27, 2024.
 </em></small>
 
 
@@ -502,6 +502,8 @@ useful for *warnings* - [manubot.org](https://manubot.org/)
 
 
 ![Incidents vs Hour of Day](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/IncidentsVSHour.png "Incidents vs Hour of Day"){#fig:incidents-vs-hour}
+
+![DUI vs Non-DUI Accidents by Month and Fatalities](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/DUIvsNon.svg?sanitize=true "DUI vs Non-DUI Accidents by Month and Fatalities"){#fig:DUI-vs-Non}
 
 #### Predictive Modeling
 
