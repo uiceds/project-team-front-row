@@ -56,8 +56,8 @@
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-10-27T15:46:59+00:00" />
-  <meta property="article:modified_time" content="2024-10-27T15:46:59+00:00" />
+  <meta name="dc.modified" content="2024-10-27T18:03:50+00:00" />
+  <meta property="article:modified_time" content="2024-10-27T18:03:50+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -78,9 +78,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/56024bb1fa9bba614295254f99b564bcbeec32b1/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/56024bb1fa9bba614295254f99b564bcbeec32b1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/56024bb1fa9bba614295254f99b564bcbeec32b1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/6ed82c539406977f63c1ca8574d2450301c14e70/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/6ed82c539406977f63c1ca8574d2450301c14e70/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/6ed82c539406977f63c1ca8574d2450301c14e70/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -97,9 +97,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/project-team-front-row/v/56024bb1fa9bba614295254f99b564bcbeec32b1/">permalink</a>)
+(<a href="https://uiceds.github.io/project-team-front-row/v/6ed82c539406977f63c1ca8574d2450301c14e70/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/project-team-front-row/tree/56024bb1fa9bba614295254f99b564bcbeec32b1">uiceds/project-team-front-row@56024bb</a>
+from <a href="https://github.com/uiceds/project-team-front-row/tree/6ed82c539406977f63c1ca8574d2450301c14e70">uiceds/project-team-front-row@6ed82c5</a>
 on October 27, 2024.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -147,8 +147,11 @@ Riley Kelch &lt;rjkelch2@illinois.edu&gt;.</p>
 </div>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
 <h4 id="description">Description</h4>
-<p>The dataset that will be used for this project is the Fatality Analysis Reporting System created by the National Highway Safety Administration. The data will be obtained from the NHTSA’s FARS database, which is publicly accessible.The FARS dataset is available in the CSV format. The specific dataset that our project will be focused on is labeled “accidents” and includes 32K+ instances and 52 columns. The columns descriptions are described in the Fatality Analysis Reporting System (FARS) Analytical User’s Manual 1975-2015. Columns are described in the below table:</p>
-<table>
+<p>The dataset that will be used for this project is the Fatality Analysis Reporting System created by the National Highway Safety Administration. The data will be obtained from the NHTSA’s FARS database, which is publicly accessible.The FARS dataset is available in the CSV format. The specific subset data that our project will be focused on is labeled “accidents.csv” and includes 32K+ instances and 52 columns. The columns descriptions are described in the Fatality Analysis Reporting System (FARS) Analytical User’s Manual 1975-2015 and in the below table:</p>
+<div id="tbl:constant-digits" class="tablenos">
+<table id="tbl:constant-digits">
+<caption><span>Table 1:</span> Abbreviation Legend.
+</caption>
 <colgroup>
 <col style="width: 55%" />
 <col style="width: 44%" />
@@ -362,15 +365,74 @@ Riley Kelch &lt;rjkelch2@illinois.edu&gt;.</p>
 </tr>
 </tbody>
 </table>
+</div>
 <p>Link: <a href="https://www.kaggle.com/datasets/nhtsa/2015-traffic-fatalities" class="uri">https://www.kaggle.com/datasets/nhtsa/2015-traffic-fatalities</a></p>
 <h4 id="plan-and-proposal">Plan and Proposal</h4>
-<p>Using the FARS dataset we aim to understand the trends in traffic fatalities in a given year and what factors are affecting those trends. We will also look at how the different variables play a role in the severity of the accident and identify geographic regions that are more prone to accidents. The trends in traffic fatalities found through this project can be used to inform policy makers and ultimately decrease the number of traffic fatalities.</p>
+<p>Using the FARS dataset, we aim to understand the trends in traffic fatalities in a given year and what factors are affecting those trends. Specifically, we will look to implement safety factors that guard against drunk driving (traffic cameras, sensor systems, DUI checkpoints, etc.) We will also look at how the different variables play a role in the severity of the accident and identify geographic regions that are more prone to accidents. The trends in traffic fatalities found through this project can be used to inform policy makers and ultimately decrease the number of traffic fatalities.</p>
 <h2 class="page_break_before" id="analysis">Analysis</h2>
 <h4 id="exploratory-data-analysis">Exploratory Data Analysis</h4>
-<div id="fig:incidents-vs-hour" class="fignos">
+<p>The dataset that we have chosen describes the details surrounding motor vehicle crashes that have resulted in at least one fatality in the United States during 2015.</p>
+<p>From the data, we have interpreted that 32,166 fatal crashes occured in 2015. Out of the total number of crashes, 26.78 percent of them involved an intoxicated driver. In the state of Illinois, 264 of 914 crashes involved a drunk driver (28.9%). More statistics are found in the table below.</p>
+<div id="tbl:constant-digits" class="tablenos">
+<table id="tbl:constant-digits">
+<caption><span>Table 2:</span> Misc Statistics.
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Desc (2015)</th>
+<th style="text-align: center;">Statistic</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Crashes (US)</td>
+<td style="text-align: center;">32,166</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Total Fatalities (US)</td>
+<td style="text-align: center;">35,092</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Drunk Driver Crashes (US)</td>
+<td style="text-align: center;">8,617</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Drunk Driver Percentage (US)</td>
+<td style="text-align: center;">26.78%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Crashes (IL)</td>
+<td style="text-align: center;">914</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Total Fatalities (IL)</td>
+<td style="text-align: center;">998</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Drunk Driver Crashes (IL)</td>
+<td style="text-align: center;">264</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Drunk Driver Percentage (IL)</td>
+<td style="text-align: center;">28.88%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Most DD Crashes, Dates (US)</td>
+<td style="text-align: center;">03May, 15Aug, 02Aug, 16Aug</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Most Crashes, Dates (IL)</td>
+<td style="text-align: center;">07Mar, 27Jun, 17Apr</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>The first factor that we analyzed to understand the data was the time of accidents. As seen in Figure 1, the highest number of accidents occurred on the weekends. On average, 104 accidents occurred on a given day of a weekend whereas 82 accidents occurred per weekday. Monday and Tuesday have the lowest number of accidents and as the week progresses, the number of accidents increases.</p>
+<p>The portion of accidents due to drunk driving by the day of the week follows similar trends. The average ratio of drunk driving accidents to total number of accidents was 37.47% for the weekend and 21.19% for weekdays. This is most likely due to the fact that drinking is more popular on the weekends.</p>
+<div id="fig:incidents-vs-day" class="fignos">
 <figure>
-<img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/IncidentsVSHour.png" alt="Figure 1: Incidents vs Hour of Day" />
-<figcaption aria-hidden="true"><span>Figure 1:</span> Incidents vs Hour of Day</figcaption>
+<img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Accidents_day_of_week.png" alt="Figure 1: Accidents vs Day of Week" />
+<figcaption aria-hidden="true"><span>Figure 1:</span> Accidents vs Day of Week</figcaption>
 </figure>
 </div>
 <div id="fig:DUI-vs-Non" class="fignos">
