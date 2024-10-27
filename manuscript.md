@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-10-27T18:30:36+00:00" />
-  <meta property="article:modified_time" content="2024-10-27T18:30:36+00:00" />
+  <meta name="dc.modified" content="2024-10-27T18:32:24+00:00" />
+  <meta property="article:modified_time" content="2024-10-27T18:32:24+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/c99a8f8e6f3199a8592eef59436bf7eea70e80f1/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/c99a8f8e6f3199a8592eef59436bf7eea70e80f1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/c99a8f8e6f3199a8592eef59436bf7eea70e80f1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/93aefd7bb51044c85346b3ab9dd6f3da142e75b4/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/93aefd7bb51044c85346b3ab9dd6f3da142e75b4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/93aefd7bb51044c85346b3ab9dd6f3da142e75b4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/c99a8f8e6f3199a8592eef59436bf7eea70e80f1/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/93aefd7bb51044c85346b3ab9dd6f3da142e75b4/))
 was automatically generated
-from [uiceds/project-team-front-row@c99a8f8](https://github.com/uiceds/project-team-front-row/tree/c99a8f8e6f3199a8592eef59436bf7eea70e80f1)
+from [uiceds/project-team-front-row@93aefd7](https://github.com/uiceds/project-team-front-row/tree/93aefd7bb51044c85346b3ab9dd6f3da142e75b4)
 on October 27, 2024.
 </em></small>
 
@@ -212,43 +212,44 @@ The dataset that we have chosen describes the details surrounding motor vehicle 
 
 From the data, we have interpreted that 32,166 fatal crashes occured in 2015. Out of the total number of crashes, 26.78 percent of them involved an intoxicated driver. In the state of Illinois, 264 of 914 crashes involved a drunk driver (28.9%). More statistics are found in the table below. 
 
-| Desc (2015)        | Statistic        | 
-|:-----------------:|:-------------:|
-| Crashes (US) | 32,166 |
-| Total Fatalities (US) | 35,092 |
-| Drunk Driver Crashes (US) | 8,617 |
-| Drunk Driver Percentage (US) | 26.78% |
-| Crashes (IL) | 914 |
-| Total Fatalities (IL) | 998 |
-| Drunk Driver Crashes (IL) | 264 |
-| Drunk Driver Percentage (IL) | 28.88% |
-| Most DD Crashes, Dates (US) | 03May, 15Aug, 02Aug, 16Aug |
-| Most Crashes, Dates (IL) | 07Mar, 27Jun, 17Apr |
-Table: Misc Statistics.
-{#tbl:constant-digits}
+  | Desc (2015)        | Statistic        | 
+  |:-----------------:|:-------------:|
+  | Crashes (US) | 32,166 |
+  | Total Fatalities (US) | 35,092 |
+  | Drunk Driver Crashes (US) | 8,617 |
+  | Drunk Driver Percentage (US) | 26.78% |
+  | Crashes (IL) | 914 |
+  | Total Fatalities (IL) | 998 |
+  | Drunk Driver Crashes (IL) | 264 |
+  | Drunk Driver Percentage (IL) | 28.88% |
+  | Most DD Crashes, Dates (US) | 03May, 15Aug, 02Aug, 16Aug |
+  | Most Crashes, Dates (IL) | 07Mar, 27Jun, 17Apr |
+  Table: Misc Statistics.
+  {#tbl:constant-digits}
 
 We first looked at a map of the United states to plot the fatal accidents vs the drunk driving fatal accidents. This visualtion shows hotspots for both categories. 
 
-![US Map](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Map_of_US.png "Map of US (2015)"){#fig:US-map height=3in}
+  ![US Map](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Map_of_US.png "Map of US (2015)"){#fig:US-map height=3in}
 
 We then created a scatter plot to visualize the number of accidents and fatalities per accident for the United States. As seen in the figure, most of the crashes result in only one fatality, however, there are a handful of multiple fatality crashes. The scatter plot annotates the amount of crashes for drunk drivers and sober drivers next to the datapoint. 
 
-![Scatter Plot](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Scatter_plot.png "Scatter Plot"){#fig:Scatter-plot height=3in}
+  ![Scatter Plot](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Scatter_plot.png "Scatter Plot"){#fig:Scatter-plot height=3in}
 
 The next factor that we analyzed to understand the data was the specific day of accidents. As seen in the figure below, the highest number of accidents occurred on the weekends. On average, 104 accidents occurred on a given day of a weekend whereas 82 accidents occurred per weekday. Monday and Tuesday have the lowest number of accidents and as the week progresses, the number of accidents increases. 
 
 The portion of accidents due to drunk driving by the day of the week follows similar trends. The average ratio of  drunk driving accidents to total number of accidents was 37.47% for the weekend and 21.19% for weekdays. This is most likely due to the fact that drinking is more popular on the weekends. Similarly, there is a figure for crashes vs time of day. 
 
-![Accidents vs Day of Week](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Accidents_day_of_week.png "Accidents vs Day of Week"){#fig:incidents-vs-day height=3in}
+  ![Accidents vs Day of Week](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Accidents_day_of_week.png "Accidents vs Day of Week"){#fig:incidents-vs-day height=3in}
 
-![Time of Day](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/IncidentsVSHour.png "Time of Day"){#fig:incidents-vs-day height=3in}
+  ![Time of Day](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/IncidentsVSHour.png "Time of Day"){#fig:incidents-vs-day height=3in}
+
 Our team also looked at the number of drunk driver accidents per day of the year. See Table 1 for the most popular days for drunk driver accidents. 
 
-![DUI Crashes by Day (US)](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/dui_accidents_by_day.png "DUI Crashes by Day (US)"){#fig:dui-by-day height=3in}
+  ![DUI Crashes by Day (US)](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/dui_accidents_by_day.png "DUI Crashes by Day (US)"){#fig:dui-by-day height=3in}
 
 As we conducted our Exploratory Data Analysis, we aimed to focus in on the state of Illinois. Below is the same information as Figure 1, but specific to Illinois for 2015. From this visual, we can see that most crashes are in the areas with larger cities (i.e. Chicago). 
 
-![Illinois Map](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Illinois_Accidents.png "Illinois Map (2015)"){#fig:Illinois-map height=3in}
+  ![Illinois Map](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Illinois_Accidents.png "Illinois Map (2015)"){#fig:Illinois-map height=3in}
 
 
 
