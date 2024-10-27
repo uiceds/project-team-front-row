@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-27" />
   <meta name="citation_publication_date" content="2024-10-27" />
   <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-10-27T18:24:45+00:00" />
-  <meta property="article:modified_time" content="2024-10-27T18:24:45+00:00" />
+  <meta name="dc.modified" content="2024-10-27T18:25:54+00:00" />
+  <meta property="article:modified_time" content="2024-10-27T18:25:54+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/cdfeddc7f43592a8fb66c1a9b964957d9a51b492/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/cdfeddc7f43592a8fb66c1a9b964957d9a51b492/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/cdfeddc7f43592a8fb66c1a9b964957d9a51b492/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/7df9aa1242aaa298ff05e2acda93035f47b701c4/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/7df9aa1242aaa298ff05e2acda93035f47b701c4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/7df9aa1242aaa298ff05e2acda93035f47b701c4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/cdfeddc7f43592a8fb66c1a9b964957d9a51b492/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/7df9aa1242aaa298ff05e2acda93035f47b701c4/))
 was automatically generated
-from [uiceds/project-team-front-row@cdfeddc](https://github.com/uiceds/project-team-front-row/tree/cdfeddc7f43592a8fb66c1a9b964957d9a51b492)
+from [uiceds/project-team-front-row@7df9aa1](https://github.com/uiceds/project-team-front-row/tree/7df9aa1242aaa298ff05e2acda93035f47b701c4)
 on October 27, 2024.
 </em></small>
 
@@ -226,7 +226,7 @@ From the data, we have interpreted that 32,166 fatal crashes occured in 2015. Ou
 | Most Crashes, Dates (IL) | 07Mar, 27Jun, 17Apr |
 Table: Misc Statistics.
 {#tbl:constant-digits}
-
+{.page_break_before}
 We first looked at a map of the United states to plot the fatal accidents vs the drunk driving fatal accidents. This visualtion shows hotspots for both categories. 
 
 ![US Map](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Map_of_US.png "Map of US (2015)"){#fig:US-map}
@@ -244,7 +244,7 @@ The portion of accidents due to drunk driving by the day of the week follows sim
 ![Time of Day](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/IncidentsVSHour.png "Time of Day"){#fig:incidents-vs-day}
 Our team also looked at the number of drunk driver accidents per day of the year. See Table 1 for the most popular days for drunk driver accidents. 
 
-![DUI Crashes by Day (US)](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Accidents_day_of_week.png "DUI Crashes by Day (US)"){#fig:dui-by-day}
+![DUI Crashes by Day (US)](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/dui_accidents_by_day.png "DUI Crashes by Day (US)"){#fig:dui-by-day}
 
 As we conducted our Exploratory Data Analysis, we aimed to focus in on the state of Illinois. Below is the same information as Figure 1, but specific to Illinois for 2015. From this visual, we can see that most crashes are in the areas with larger cities (i.e. Chicago). 
 
