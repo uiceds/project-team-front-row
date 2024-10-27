@@ -1,6 +1,6 @@
 ckimber
 COND
-csv
+CSV
 Daggett
 datapoint
 dataset
