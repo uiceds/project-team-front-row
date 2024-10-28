@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T04:50:03+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T04:50:03+00:00" />
+  <meta name="dc.modified" content="2024-10-28T04:55:38+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T04:55:38+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/fe7a2fcc18dfb9724553172fb8be42079f266dc2/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/fe7a2fcc18dfb9724553172fb8be42079f266dc2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/fe7a2fcc18dfb9724553172fb8be42079f266dc2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/93331865bbc60ddbf71c54e15f2d4e9bc97dbfbb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/93331865bbc60ddbf71c54e15f2d4e9bc97dbfbb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/93331865bbc60ddbf71c54e15f2d4e9bc97dbfbb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/fe7a2fcc18dfb9724553172fb8be42079f266dc2/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/93331865bbc60ddbf71c54e15f2d4e9bc97dbfbb/))
 was automatically generated
-from [uiceds/project-team-front-row@fe7a2fc](https://github.com/uiceds/project-team-front-row/tree/fe7a2fcc18dfb9724553172fb8be42079f266dc2)
+from [uiceds/project-team-front-row@9333186](https://github.com/uiceds/project-team-front-row/tree/93331865bbc60ddbf71c54e15f2d4e9bc97dbfbb)
 on October 28, 2024.
 </em></small>
 
@@ -226,6 +226,7 @@ From the data, we have interpreted that 32,166 fatal crashes occured in 2015. Ou
   | Most DD Crashes, Dates (US) | 03May, 15Aug, 02Aug, 16Aug |
   | Most Crashes, Dates (IL) | 07Mar, 27Jun, 17Apr |
   Table: Misc Statistics.
+  {#tbl:constant-digits}
 
 
 To understand the trends in the data, we first analyzed the location of accidents and how the location relates to other variables. We looked at a map of the United states to plot the fatal accidents vs the drunk driving fatal accidents, as seen in Figure 1. This visualtion shows hotspots for both categories which are generally in more populous areas and in coastal regions.
