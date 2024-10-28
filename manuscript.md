@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T04:45:01+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T04:45:01+00:00" />
+  <meta name="dc.modified" content="2024-10-28T04:49:05+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T04:49:05+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/c37133901a5457e6102ae9807845abf2aa1b652b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/c37133901a5457e6102ae9807845abf2aa1b652b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/c37133901a5457e6102ae9807845abf2aa1b652b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/bcadf67a106971692db004844575a3bdfe708bd2/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/bcadf67a106971692db004844575a3bdfe708bd2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/bcadf67a106971692db004844575a3bdfe708bd2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/c37133901a5457e6102ae9807845abf2aa1b652b/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/bcadf67a106971692db004844575a3bdfe708bd2/))
 was automatically generated
-from [uiceds/project-team-front-row@c371339](https://github.com/uiceds/project-team-front-row/tree/c37133901a5457e6102ae9807845abf2aa1b652b)
+from [uiceds/project-team-front-row@bcadf67](https://github.com/uiceds/project-team-front-row/tree/bcadf67a106971692db004844575a3bdfe708bd2)
 on October 28, 2024.
 </em></small>
 
@@ -230,7 +230,7 @@ From the data, we have interpreted that 32,166 fatal crashes occured in 2015. Ou
 
 To understand the trends in the data, we first analyzed the location of accidents and how the location relates to other variables. We looked at a map of the United states to plot the fatal accidents vs the drunk driving fatal accidents, as seen in figure 1. This visualtion shows hotspots for both categories which are generally in more populous areas and in coastal regions.
   
-  ![US Map](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Map_of_US.png "Map of US (2015)")
+  ![US Map](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Map_of_US.png "Map of US (2015)"){#fig:US-Map height=4in}
   
   
 We then created a scatter plot to visualize the number of accidents and fatalities per accident for the United States. As seen in the figure, most of the crashes result in only one fatality, however, there are a handful of multiple fatality crashes. The scatter plot annotates the amount of crashes for drunk drivers and sober drivers next to the datapoint. 
@@ -278,6 +278,7 @@ National Highway Traffic Safety Administration. (2016). Fatality Analysis Report
 National Highway Traffic Safety Administration. "2015 Traffic Fatalities." Kaggle, https://www.kaggle.com/datasets/nhtsa/2015-traffic-fatalities. Accessed 24 Oct. 2024.
 
 National Highway Traffic Safety Administration. Fatality Analysis Reporting System (FARS) Analytical User's Manual 1975-2015. U.S. Department of Transportation, Aug. 2016.
+
 <div id="refs"></div>
 
 
