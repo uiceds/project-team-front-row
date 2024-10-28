@@ -7,14 +7,14 @@
       "manubot"
     ],
     "lang": "en-US",
-    "date-meta": "2024-10-27",
+    "date-meta": "2024-10-28",
     "author-meta": [
       "Justin Rebholz",
       "Cameron Kimber",
       "Hannah Daggett",
       "Riley Kelch"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta name=\"dc.title\" content=\"Analysis of Traffic Fatality Records\" />\n<meta name=\"citation_title\" content=\"Analysis of Traffic Fatality Records\" />\n<meta property=\"og:title\" content=\"Analysis of Traffic Fatality Records\" />\n<meta property=\"twitter:title\" content=\"Analysis of Traffic Fatality Records\" />\n<meta name=\"dc.date\" content=\"2024-10-27\" />\n<meta name=\"citation_publication_date\" content=\"2024-10-27\" />\n<meta property=\"article:published_time\" content=\"2024-10-27\" />\n<meta name=\"dc.modified\" content=\"2024-10-27T18:37:57+00:00\" />\n<meta property=\"article:modified_time\" content=\"2024-10-27T18:37:57+00:00\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Justin Rebholz\" />\n<meta name=\"citation_author_institution\" content=\"Department of Civil and Environmental Engineering, University of Illinois\" />\n<meta name=\"citation_author\" content=\"Cameron Kimber\" />\n<meta name=\"citation_author_institution\" content=\"Department of Civil and Environmental Engineering, University of Illinois\" />\n<meta name=\"citation_author\" content=\"Hannah Daggett\" />\n<meta name=\"citation_author_institution\" content=\"Department of Civil and Environmental Engineering, University of Illinois\" />\n<meta name=\"citation_author\" content=\"Riley Kelch\" />\n<meta name=\"citation_author_institution\" content=\"Department of Civil and Environmental Engineering, University of Illinois\" />\n<link rel=\"canonical\" href=\"https://uiceds.github.io/project-team-front-row/\" />\n<meta property=\"og:url\" content=\"https://uiceds.github.io/project-team-front-row/\" />\n<meta property=\"twitter:url\" content=\"https://uiceds.github.io/project-team-front-row/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://uiceds.github.io/project-team-front-row/\" />\n<meta name=\"citation_pdf_url\" content=\"https://uiceds.github.io/project-team-front-row/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://uiceds.github.io/project-team-front-row/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://uiceds.github.io/project-team-front-row/v/7da389cf1ed5d96205bd5f40b1325ecaa24f95ed/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://uiceds.github.io/project-team-front-row/v/7da389cf1ed5d96205bd5f40b1325ecaa24f95ed/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://uiceds.github.io/project-team-front-row/v/7da389cf1ed5d96205bd5f40b1325ecaa24f95ed/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->\n",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta name=\"dc.title\" content=\"Analysis of Traffic Fatality Records\" />\n<meta name=\"citation_title\" content=\"Analysis of Traffic Fatality Records\" />\n<meta property=\"og:title\" content=\"Analysis of Traffic Fatality Records\" />\n<meta property=\"twitter:title\" content=\"Analysis of Traffic Fatality Records\" />\n<meta name=\"dc.date\" content=\"2024-10-28\" />\n<meta name=\"citation_publication_date\" content=\"2024-10-28\" />\n<meta property=\"article:published_time\" content=\"2024-10-28\" />\n<meta name=\"dc.modified\" content=\"2024-10-28T02:18:00+00:00\" />\n<meta property=\"article:modified_time\" content=\"2024-10-28T02:18:00+00:00\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Justin Rebholz\" />\n<meta name=\"citation_author_institution\" content=\"Department of Civil and Environmental Engineering, University of Illinois\" />\n<meta name=\"citation_author\" content=\"Cameron Kimber\" />\n<meta name=\"citation_author_institution\" content=\"Department of Civil and Environmental Engineering, University of Illinois\" />\n<meta name=\"citation_author\" content=\"Hannah Daggett\" />\n<meta name=\"citation_author_institution\" content=\"Department of Civil and Environmental Engineering, University of Illinois\" />\n<meta name=\"citation_author\" content=\"Riley Kelch\" />\n<meta name=\"citation_author_institution\" content=\"Department of Civil and Environmental Engineering, University of Illinois\" />\n<link rel=\"canonical\" href=\"https://uiceds.github.io/project-team-front-row/\" />\n<meta property=\"og:url\" content=\"https://uiceds.github.io/project-team-front-row/\" />\n<meta property=\"twitter:url\" content=\"https://uiceds.github.io/project-team-front-row/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://uiceds.github.io/project-team-front-row/\" />\n<meta name=\"citation_pdf_url\" content=\"https://uiceds.github.io/project-team-front-row/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://uiceds.github.io/project-team-front-row/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://uiceds.github.io/project-team-front-row/v/b80f89ebe4cd4ea15005f7fa103f78a195b4f837/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://uiceds.github.io/project-team-front-row/v/b80f89ebe4cd4ea15005f7fa103f78a195b4f837/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://uiceds.github.io/project-team-front-row/v/b80f89ebe4cd4ea15005f7fa103f78a195b4f837/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->\n",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -24,10 +24,10 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "2024-10-27",
-    "date_long": "October 27, 2024",
-    "generated": "2024-10-27T18:37:57+00:00",
-    "generated_date_long": "October 27, 2024",
+    "date": "2024-10-28",
+    "date_long": "October 28, 2024",
+    "generated": "2024-10-28T02:18:00+00:00",
+    "generated_date_long": "October 28, 2024",
     "randomize_author_order": false,
     "authors": [
       {
@@ -94,19 +94,19 @@
       "repo_slug": "uiceds/project-team-front-row",
       "repo_owner": "uiceds",
       "repo_name": "project-team-front-row",
-      "commit": "7da389cf1ed5d96205bd5f40b1325ecaa24f95ed",
-      "triggering_commit": "7da389cf1ed5d96205bd5f40b1325ecaa24f95ed",
-      "build_url": "https://github.com/uiceds/project-team-front-row/commit/7da389cf1ed5d96205bd5f40b1325ecaa24f95ed/checks",
-      "job_url": "https://github.com/uiceds/project-team-front-row/actions/runs/11542904713"
+      "commit": "b80f89ebe4cd4ea15005f7fa103f78a195b4f837",
+      "triggering_commit": "b80f89ebe4cd4ea15005f7fa103f78a195b4f837",
+      "build_url": "https://github.com/uiceds/project-team-front-row/commit/b80f89ebe4cd4ea15005f7fa103f78a195b4f837/checks",
+      "job_url": "https://github.com/uiceds/project-team-front-row/actions/runs/11546108287"
     },
     "html_url": "https://uiceds.github.io/project-team-front-row/",
     "pdf_url": "https://uiceds.github.io/project-team-front-row/manuscript.pdf",
-    "html_url_versioned": "https://uiceds.github.io/project-team-front-row/v/7da389cf1ed5d96205bd5f40b1325ecaa24f95ed/",
-    "pdf_url_versioned": "https://uiceds.github.io/project-team-front-row/v/7da389cf1ed5d96205bd5f40b1325ecaa24f95ed/manuscript.pdf",
+    "html_url_versioned": "https://uiceds.github.io/project-team-front-row/v/b80f89ebe4cd4ea15005f7fa103f78a195b4f837/",
+    "pdf_url_versioned": "https://uiceds.github.io/project-team-front-row/v/b80f89ebe4cd4ea15005f7fa103f78a195b4f837/manuscript.pdf",
     "manubot_version": "0.6.1",
     "rootstock_commit": null,
     "manuscript_stats": {
-      "word_count": 3313
+      "word_count": 3475
     }
   }
 }

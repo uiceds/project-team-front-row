@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-10-27'
+date-meta: '2024-10-28'
 author-meta:
 - Justin Rebholz
 - Cameron Kimber
@@ -22,11 +22,11 @@ header-includes: |
   <meta name="citation_title" content="Analysis of Traffic Fatality Records" />
   <meta property="og:title" content="Analysis of Traffic Fatality Records" />
   <meta property="twitter:title" content="Analysis of Traffic Fatality Records" />
-  <meta name="dc.date" content="2024-10-27" />
-  <meta name="citation_publication_date" content="2024-10-27" />
-  <meta property="article:published_time" content="2024-10-27" />
-  <meta name="dc.modified" content="2024-10-27T18:37:57+00:00" />
-  <meta property="article:modified_time" content="2024-10-27T18:37:57+00:00" />
+  <meta name="dc.date" content="2024-10-28" />
+  <meta name="citation_publication_date" content="2024-10-28" />
+  <meta property="article:published_time" content="2024-10-28" />
+  <meta name="dc.modified" content="2024-10-28T02:18:00+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T02:18:00+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/7da389cf1ed5d96205bd5f40b1325ecaa24f95ed/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/7da389cf1ed5d96205bd5f40b1325ecaa24f95ed/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/7da389cf1ed5d96205bd5f40b1325ecaa24f95ed/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/b80f89ebe4cd4ea15005f7fa103f78a195b4f837/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/b80f89ebe4cd4ea15005f7fa103f78a195b4f837/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/b80f89ebe4cd4ea15005f7fa103f78a195b4f837/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,10 +71,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/7da389cf1ed5d96205bd5f40b1325ecaa24f95ed/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/b80f89ebe4cd4ea15005f7fa103f78a195b4f837/))
 was automatically generated
-from [uiceds/project-team-front-row@7da389c](https://github.com/uiceds/project-team-front-row/tree/7da389cf1ed5d96205bd5f40b1325ecaa24f95ed)
-on October 27, 2024.
+from [uiceds/project-team-front-row@b80f89e](https://github.com/uiceds/project-team-front-row/tree/b80f89ebe4cd4ea15005f7fa103f78a195b4f837)
+on October 28, 2024.
 </em></small>
 
 
@@ -255,6 +255,10 @@ As we conducted our Exploratory Data Analysis, we aimed to focus in on the state
 
 #### Predictive Modeling
 
+
+Based on the analysis conducted on the provided data, a predictive model utilizing k-means clustering can assist in determining ideal locations for the implementation of DUI checkpoints based on crash sites. Adjustment of k in the clustering algorithm can be done using parameters such as resource allocation towards policing in distinct areas. The k-means clustering process will begin by taking crash data with drinking involved within Illinois. This data will be clustered based on a predefined k value, representative of a decision made based on resource allocation. 
+
+Additional consideration will be given towards dimensions of time regarding crash likelihood. According to Figure 4, noticeable variation occurs in the amount of accidents occurring at specific times of day, indicating a need to manage resource allocation with time consideration. The implementation of a clustering algorithm using the provided data can be applied towards a proposal regarding DUI checkpoint locations in designated areas based on available resources, therefore optimizing provision of safety from DUI-related incidents.
 
 
 
