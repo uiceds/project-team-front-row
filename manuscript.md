@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T02:18:00+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T02:18:00+00:00" />
+  <meta name="dc.modified" content="2024-10-28T04:09:51+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T04:09:51+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/b80f89ebe4cd4ea15005f7fa103f78a195b4f837/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/b80f89ebe4cd4ea15005f7fa103f78a195b4f837/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/b80f89ebe4cd4ea15005f7fa103f78a195b4f837/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/141b1ea6618d55d60b6beb311df5895dd470c855/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/141b1ea6618d55d60b6beb311df5895dd470c855/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/141b1ea6618d55d60b6beb311df5895dd470c855/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/b80f89ebe4cd4ea15005f7fa103f78a195b4f837/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/141b1ea6618d55d60b6beb311df5895dd470c855/))
 was automatically generated
-from [uiceds/project-team-front-row@b80f89e](https://github.com/uiceds/project-team-front-row/tree/b80f89ebe4cd4ea15005f7fa103f78a195b4f837)
+from [uiceds/project-team-front-row@141b1ea](https://github.com/uiceds/project-team-front-row/tree/141b1ea6618d55d60b6beb311df5895dd470c855)
 on October 28, 2024.
 </em></small>
 
@@ -204,13 +204,13 @@ Using the FARS dataset, we aim to understand the trends in traffic fatalities in
 
 
 
-## Analysis {.page_break_before}
+## PRJ2.1 Exploratory Data Analysis  
 
 #### Exploratory Data Analysis
 
-The dataset that we have chosen describes the details surrounding motor vehicle crashes that have resulted in at least one fatality in the United States during 2015. 
+The dataset that we have chosen describes the details surrounding motor vehicle crashes in the United States during the year 2015. 
 
-From the data, we have interpreted that 32,166 fatal crashes occured in 2015. Out of the total number of crashes, 26.78 percent of them involved an intoxicated driver. In the state of Illinois, 264 of 914 crashes involved a drunk driver (28.9%). More statistics are found in the table below. 
+From the data, we have interpreted that 32,166 fatal crashes occured in 2015. Out of the total number of crashes, 26.78% of accidents involved an intoxicated driver. In the state of Illinois, 264 of 914 crashes involved a drunk driver (28.9%). More statistics are found in the table below. 
 
   | Desc (2015)        | Statistic        | 
   |:-----------------:|:-------------:|
@@ -261,9 +261,7 @@ Based on the analysis conducted on the provided data, a predictive model utilizi
 Additional consideration will be given towards dimensions of time regarding crash likelihood. According to Figure 4, noticeable variation occurs in the amount of accidents occurring at specific times of day, indicating a need to manage resource allocation with time consideration. The implementation of a clustering algorithm using the provided data can be applied towards a proposal regarding DUI checkpoint locations in designated areas based on available resources, therefore optimizing provision of safety from DUI-related incidents.
 
 
-
-
-
+#### References 
 
 
 
