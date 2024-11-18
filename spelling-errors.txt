@@ -1,7 +1,6 @@
 centroid
-centroids
+Centroids
 ckimber
-clusterrs
 COND
 csv
 Daggett
