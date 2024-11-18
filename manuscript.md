@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T22:19:00+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T22:19:00+00:00" />
+  <meta name="dc.modified" content="2024-11-18T22:23:43+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T22:23:43+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/3adb87bef6b00b5ebbad414d6fa090ace07f82f6/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/3adb87bef6b00b5ebbad414d6fa090ace07f82f6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/3adb87bef6b00b5ebbad414d6fa090ace07f82f6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/fc994ed876ebc215ee2cee6d07a9d6102e6b2a24/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/fc994ed876ebc215ee2cee6d07a9d6102e6b2a24/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/fc994ed876ebc215ee2cee6d07a9d6102e6b2a24/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/3adb87bef6b00b5ebbad414d6fa090ace07f82f6/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/fc994ed876ebc215ee2cee6d07a9d6102e6b2a24/))
 was automatically generated
-from [uiceds/project-team-front-row@3adb87b](https://github.com/uiceds/project-team-front-row/tree/3adb87bef6b00b5ebbad414d6fa090ace07f82f6)
+from [uiceds/project-team-front-row@fc994ed](https://github.com/uiceds/project-team-front-row/tree/fc994ed876ebc215ee2cee6d07a9d6102e6b2a24)
 on November 18, 2024.
 </em></small>
 
@@ -285,8 +285,14 @@ Additional k-means clustering models were created to provide insights into poten
 ![thursday_cluster](https://github.com/user-attachments/assets/31e374eb-b321-47ba-bf24-2542aafd6b45)
 ![friday_cluster](https://github.com/user-attachments/assets/ef4d530c-58f3-43f8-97c0-834ac5cafe0b)
 ![saturday_cluster](https://github.com/user-attachments/assets/f3d01a74-22e0-4256-a7d6-933109f1d0d1)
+
+Drunk driving incidents across the entire United States  were further analyzed, as depicted by the plot below. The visualization demonstrates the spatial distribution of all drunk driving accidents and the resulting clusters identified using k-means analysis, offering insight into nationwide trends
 ![drunk_driving_cluster](https://github.com/user-attachments/assets/968e27bb-8f5b-4736-878e-670363409872)
+
+An additional plot focuses on drunk driving accidents involving at least one fatality, with clusterrs highlighting regions where such incidents are most prevalent. These centroids can inform targeted interventions to reduce the frequency and severity of fatal accidents.
 ![drunk_driving_fatalities_cluster](https://github.com/user-attachments/assets/e0397d7e-25c7-4f4e-9f51-9f8011328901)
+
+Some limitations exist with the k-means modeling process. Running the scripts multiple times often results in different centroid locations with each rerun. In the future, this could be corrected by incorporating a weight system into the clustering. Centroids could be weighted based on factors such as fatality count, whether the incident involved drunk driving, or both. This approach would add consistency to the clustering results and allow the model to better reflect the relative severity and risk associated with each cluster. Additionally, further refinement of the algorithm parameters, such as initializing centroids, could enhance the accuracy and reliability of the model.
 
 Additional consideration was given towards dimensions of time regarding crash likelihood. According to Figure 4, noticeable variation occurs in the amount of accidents occurring at specific times of day, indicating a need to manage resource allocation with time consideration. The implementation of a neural network using the provided data can be applied towards a proposal regarding DUI checkpoint locations or patrol areas in designated areas based on available resources and shift time, therefore optimizing provision of safety from DUI-related incidents.
 
