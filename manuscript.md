@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T22:16:12+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T22:16:12+00:00" />
+  <meta name="dc.modified" content="2024-11-18T22:19:00+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T22:19:00+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/331ac3a52d5ab6007c495750f46d65766b6ca3f4/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/331ac3a52d5ab6007c495750f46d65766b6ca3f4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/331ac3a52d5ab6007c495750f46d65766b6ca3f4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/3adb87bef6b00b5ebbad414d6fa090ace07f82f6/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/3adb87bef6b00b5ebbad414d6fa090ace07f82f6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/3adb87bef6b00b5ebbad414d6fa090ace07f82f6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/331ac3a52d5ab6007c495750f46d65766b6ca3f4/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/3adb87bef6b00b5ebbad414d6fa090ace07f82f6/))
 was automatically generated
-from [uiceds/project-team-front-row@331ac3a](https://github.com/uiceds/project-team-front-row/tree/331ac3a52d5ab6007c495750f46d65766b6ca3f4)
+from [uiceds/project-team-front-row@3adb87b](https://github.com/uiceds/project-team-front-row/tree/3adb87bef6b00b5ebbad414d6fa090ace07f82f6)
 on November 18, 2024.
 </em></small>
 
@@ -288,19 +288,19 @@ Additional k-means clustering models were created to provide insights into poten
 ![drunk_driving_cluster](https://github.com/user-attachments/assets/968e27bb-8f5b-4736-878e-670363409872)
 ![drunk_driving_fatalities_cluster](https://github.com/user-attachments/assets/e0397d7e-25c7-4f4e-9f51-9f8011328901)
 
-Additional consideration will be given towards dimensions of time regarding crash likelihood. According to Figure 4, noticeable variation occurs in the amount of accidents occurring at specific times of day, indicating a need to manage resource allocation with time consideration. The implementation of a clustering algorithm using the provided data can be applied towards a proposal regarding DUI checkpoint locations in designated areas based on available resources, therefore optimizing provision of safety from DUI-related incidents.
+Additional consideration was given towards dimensions of time regarding crash likelihood. According to Figure 4, noticeable variation occurs in the amount of accidents occurring at specific times of day, indicating a need to manage resource allocation with time consideration. The implementation of a neural network using the provided data can be applied towards a proposal regarding DUI checkpoint locations or patrol areas in designated areas based on available resources and shift time, therefore optimizing provision of safety from DUI-related incidents.
 
-The model and figures below represent a neural network model that has the potential to be utilized by the Illinois State Police. The inputs to the model consist of day of week, hours of shift, and current weather conditions. The model then predicts which twenty mile radius patrol zones in Illinois will likely yield the highest probability of fatal drunk driving accidents, thus prompting supervisors to direct units to those areas. The model is trained on labeled data, taking into account latitudinal and longitudinal bins of a twenty mile radius in Illinois. The model is a multiple dense-layered, supervised, feedforward neural network.
+The model and figures below represent a neural network model that has the potential to be utilized by the Illinois State Police. The inputs to the model consist of day of week, hours of shift, and current weather conditions. The model then predicts which twenty mile radius patrol zones in Illinois will likely yield the highest probability of fatal drunk driving accidents, thus prompting supervisors to direct units to those areas. The model is trained on labeled data, taking into account latitudinal and longitudinal bins of a twenty mile radius in Illinois. The model is a multiple dense-layered, supervised, feedforward neural network. Standardization and component engineering were used in this model.
 
 The figures below represent visualizations with varying input data for specific standard police patrol shifts. 
-
-Possible further development of the nueral network model includes allowing for more input variables (i.e. month, traffic density, etc) and comparing the model to later-year data. 
 
 ![Friday Plot](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/friday.png "Friday Plot"){#fig:US-Map height=4in}
 
 ![Saturday Plot](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/saturday.png "Saturday Plot"){#fig:US-Map height=4in}
 
 ![Sunday Plot](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/sunday.png "Sunday Plot"){#fig:US-Map height=4in}
+
+Possible further development of the nueral network model includes allowing for more input variables (i.e. month, traffic density, etc),comparing the model to later-year data, and use of advanced regularization. "One-hot coding" is also being explored as an area of interest to reduce impartiality to specific days of the week or times (i.e. 1=Sunday). One-hot coding would ensure the model did not interpret numerical symbols to have a magnitude or significance.
 
 
 ## References {.page_break_before}
