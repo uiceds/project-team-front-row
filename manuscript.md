@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T18:26:13+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T18:26:13+00:00" />
+  <meta name="dc.modified" content="2024-11-18T19:38:34+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T19:38:34+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/a5a8c4b3ff80e963d4c6c004237cbc43c759a89d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/a5a8c4b3ff80e963d4c6c004237cbc43c759a89d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/a5a8c4b3ff80e963d4c6c004237cbc43c759a89d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/a44a0c8346fae87b838d0fb794a29c6cd4605bf4/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/a44a0c8346fae87b838d0fb794a29c6cd4605bf4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/a44a0c8346fae87b838d0fb794a29c6cd4605bf4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/a5a8c4b3ff80e963d4c6c004237cbc43c759a89d/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/a44a0c8346fae87b838d0fb794a29c6cd4605bf4/))
 was automatically generated
-from [uiceds/project-team-front-row@a5a8c4b](https://github.com/uiceds/project-team-front-row/tree/a5a8c4b3ff80e963d4c6c004237cbc43c759a89d)
+from [uiceds/project-team-front-row@a44a0c8](https://github.com/uiceds/project-team-front-row/tree/a44a0c8346fae87b838d0fb794a29c6cd4605bf4)
 on November 18, 2024.
 </em></small>
 
@@ -273,6 +273,16 @@ As we conducted our Exploratory Data Analysis, we aimed to focus in on the state
 Based on the analysis conducted on the provided data, a predictive model utilizing k-means clustering can assist in determining ideal locations for the implementation of DUI checkpoints based on crash sites. Adjustment of k in the clustering algorithm can be done using parameters such as resource allocation towards policing in distinct areas. The k-means clustering process will begin by taking crash data with drinking involved within Illinois. This data will be clustered based on a predefined k value, representative of a decision made based on resource allocation. 
 
 Additional consideration will be given towards dimensions of time regarding crash likelihood. According to Figure 4, noticeable variation occurs in the amount of accidents occurring at specific times of day, indicating a need to manage resource allocation with time consideration. The implementation of a clustering algorithm using the provided data can be applied towards a proposal regarding DUI checkpoint locations in designated areas based on available resources, therefore optimizing provision of safety from DUI-related incidents.
+
+The model and figures below represent a neural network model that has the potential to be utilized by the Illinois State Police. The inputs to the model consist of day of week, hours of shift, and current weather conditions. The model then predicts which twenty mile radius patrol zones in Illinois will likely yield the highest probability of fatal drunk driving accidents, thus prompting supervisors to direct units to those areas. The model is trained on labeled data, taking into account latitudinal and longitudinal bins of a twenty mile radius in Illinois. The model was a multiple dense-layered, supervised, feedforward neural network. 
+The figures below represent visualizations with varying input data for specific standard police patrol shifts. 
+
+![Friday Plot](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/friday.png "Friday Plot"){#fig:US-Map height=4in}
+
+![Saturday Plot](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/saturday.png "Saturday Plot"){#fig:US-Map height=4in}
+
+![Sunday Plot](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/sunday.png "Sunday Plot"){#fig:US-Map height=4in}
+
 
 ## References {.page_break_before}
 National Highway Traffic Safety Administration. "2015 Traffic Fatalities." Kaggle, https://www.kaggle.com/datasets/nhtsa/2015-traffic-fatalities. Accessed 24 Oct. 2024.
