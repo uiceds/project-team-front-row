@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T22:13:39+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T22:13:39+00:00" />
+  <meta name="dc.modified" content="2024-11-18T22:16:12+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T22:16:12+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/44bc1c0d4ac6e58fbca59335a6bc8212051f3e8f/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/44bc1c0d4ac6e58fbca59335a6bc8212051f3e8f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/44bc1c0d4ac6e58fbca59335a6bc8212051f3e8f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/331ac3a52d5ab6007c495750f46d65766b6ca3f4/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/331ac3a52d5ab6007c495750f46d65766b6ca3f4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/331ac3a52d5ab6007c495750f46d65766b6ca3f4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/44bc1c0d4ac6e58fbca59335a6bc8212051f3e8f/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/331ac3a52d5ab6007c495750f46d65766b6ca3f4/))
 was automatically generated
-from [uiceds/project-team-front-row@44bc1c0](https://github.com/uiceds/project-team-front-row/tree/44bc1c0d4ac6e58fbca59335a6bc8212051f3e8f)
+from [uiceds/project-team-front-row@331ac3a](https://github.com/uiceds/project-team-front-row/tree/331ac3a52d5ab6007c495750f46d65766b6ca3f4)
 on November 18, 2024.
 </em></small>
 
@@ -278,7 +278,15 @@ The graph below depicts all of the drunk driving fatalities that occurred in Ill
 
 Additional k-means clustering models were created to provide insights into potential high-risk zones in regards to drunk driving incidents. The seven plots below illustrate the distribution of drunk driving accidents on a daily basis, revealing notable trends throughout the week. Drunk driving incidents show a clear increase during the weekends, particularly on Fridays and Saturdays. 
 
-
+![sunday_cluster](https://github.com/user-attachments/assets/5331fe96-4b7e-4710-aca3-2439fcf8fdf8)
+![monday_cluster](https://github.com/user-attachments/assets/94a95d60-6a04-4bf6-9fa1-6b296bccf522)
+![tuesday_cluster](https://github.com/user-attachments/assets/d10d2bf2-8a66-4ffa-beee-a9cf79f83557)
+![wednesday_cluster](https://github.com/user-attachments/assets/c12aa34c-e9aa-4714-bb60-f240d9ebbf7f)
+![thursday_cluster](https://github.com/user-attachments/assets/31e374eb-b321-47ba-bf24-2542aafd6b45)
+![friday_cluster](https://github.com/user-attachments/assets/ef4d530c-58f3-43f8-97c0-834ac5cafe0b)
+![saturday_cluster](https://github.com/user-attachments/assets/f3d01a74-22e0-4256-a7d6-933109f1d0d1)
+![drunk_driving_cluster](https://github.com/user-attachments/assets/968e27bb-8f5b-4736-878e-670363409872)
+![drunk_driving_fatalities_cluster](https://github.com/user-attachments/assets/e0397d7e-25c7-4f4e-9f51-9f8011328901)
 
 Additional consideration will be given towards dimensions of time regarding crash likelihood. According to Figure 4, noticeable variation occurs in the amount of accidents occurring at specific times of day, indicating a need to manage resource allocation with time consideration. The implementation of a clustering algorithm using the provided data can be applied towards a proposal regarding DUI checkpoint locations in designated areas based on available resources, therefore optimizing provision of safety from DUI-related incidents.
 

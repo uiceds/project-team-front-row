@@ -27,8 +27,8 @@ content/03.exploratory.md:7:occured
 content/03.exploratory.md:26:hotspots
 content/03.exploratory.md:26:visualtion
 content/03.exploratory.md:31:datapoint
-content/04.predictive.md:18:feedforward
-content/04.predictive.md:22:nueral
+content/04.predictive.md:26:feedforward
+content/04.predictive.md:30:nueral
 content/90.back-matter.md:2:kaggle
 content/90.back-matter.md:2:Kaggle
 content/90.back-matter.md:4:FARS
