@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T20:15:41+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T20:15:41+00:00" />
+  <meta name="dc.modified" content="2024-11-18T20:25:12+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T20:25:12+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/b73bd1667d6df0c1858a8de5b76d116ece6df945/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/b73bd1667d6df0c1858a8de5b76d116ece6df945/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/b73bd1667d6df0c1858a8de5b76d116ece6df945/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/d23530106a4fd614946c89985b2b454f17be8f31/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/d23530106a4fd614946c89985b2b454f17be8f31/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/d23530106a4fd614946c89985b2b454f17be8f31/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/b73bd1667d6df0c1858a8de5b76d116ece6df945/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/d23530106a4fd614946c89985b2b454f17be8f31/))
 was automatically generated
-from [uiceds/project-team-front-row@b73bd16](https://github.com/uiceds/project-team-front-row/tree/b73bd1667d6df0c1858a8de5b76d116ece6df945)
+from [uiceds/project-team-front-row@d235301](https://github.com/uiceds/project-team-front-row/tree/d23530106a4fd614946c89985b2b454f17be8f31)
 on November 18, 2024.
 </em></small>
 
@@ -271,6 +271,8 @@ As we conducted our Exploratory Data Analysis, we aimed to focus in on the state
 
 
 Based on the analysis conducted on the provided data, a predictive model utilizing k-means clustering can assist in determining ideal locations for the implementation of DUI checkpoints based on crash sites. Adjustment of k in the clustering algorithm can be done using parameters such as resource allocation towards policing in distinct areas. The k-means clustering process will begin by taking crash data with drinking involved within Illinois. This data will be clustered based on a predefined k value, representative of a decision made based on resource allocation. 
+
+![Illinois DD Clusters](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/Illinois.png "Illinois"){#fig:US-Map height=4in}
 
 Additional consideration will be given towards dimensions of time regarding crash likelihood. According to Figure 4, noticeable variation occurs in the amount of accidents occurring at specific times of day, indicating a need to manage resource allocation with time consideration. The implementation of a clustering algorithm using the provided data can be applied towards a proposal regarding DUI checkpoint locations in designated areas based on available resources, therefore optimizing provision of safety from DUI-related incidents.
 
