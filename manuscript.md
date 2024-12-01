@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-01" />
   <meta name="citation_publication_date" content="2024-12-01" />
   <meta property="article:published_time" content="2024-12-01" />
-  <meta name="dc.modified" content="2024-12-01T22:57:20+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T22:57:20+00:00" />
+  <meta name="dc.modified" content="2024-12-01T23:08:07+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T23:08:07+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/c96c0cefd8c007b312da684891cce941ee8e12e6/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/c96c0cefd8c007b312da684891cce941ee8e12e6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/c96c0cefd8c007b312da684891cce941ee8e12e6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/14c41107013e3e7687f229012674c004a5694c5f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/14c41107013e3e7687f229012674c004a5694c5f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/14c41107013e3e7687f229012674c004a5694c5f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/c96c0cefd8c007b312da684891cce941ee8e12e6/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/14c41107013e3e7687f229012674c004a5694c5f/))
 was automatically generated
-from [uiceds/project-team-front-row@c96c0ce](https://github.com/uiceds/project-team-front-row/tree/c96c0cefd8c007b312da684891cce941ee8e12e6)
+from [uiceds/project-team-front-row@14c4110](https://github.com/uiceds/project-team-front-row/tree/14c41107013e3e7687f229012674c004a5694c5f)
 on December 1, 2024.
 </em></small>
 
@@ -276,7 +276,7 @@ The graph below depicts all of the drunk driving fatalities that occurred in Ill
 
 ![Illinois DD Clusters](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/Illinois.png "Illinois"){#fig:US-Map height=4in}
 
-Additional k-means clustering models were created to provide insights into potential high-risk zones in regards to drunk driving incidents. The seven plots below illustrate the distribution of drunk driving accidents on a daily basis, revealing notable trends throughout the week. Drunk driving incidents show a clear increase during the weekends, particularly on Fridays and Saturdays. 
+Additional k-means clustering models were created to provide insights into potential high-risk zones in regards to drunk driving incidents. The seven plots below illustrate the distribution of drunk driving accidents on a daily basis, revealing notable trends throughout the week. Drunk driving incidents show a clear increase during the weekends, likely due to bars, restaurants, and clubs tending to have higher activity on Friday and Saturday nights. On weekdays, drunk driving incidents appear to be more cluistered along commuter routes. However, on weekends, these clusters appear to shift to more urbanized areas where more recreational zones and leisure activities may be present. In other words, weekend incidents appear more concentrated on city centers.
 
 ![Sunday Cluster](https://github.com/uiceds/project-team-front-row/blob/main/content/images/predictive/US_Sunday_Clusters.png "Sunday Cluster"){#fig:US-Map height=4in}
 ![Monday Cluster](https://github.com/uiceds/project-team-front-row/blob/main/content/images/predictive/US_Monday_Clusters.png "Monday Cluster"){#fig:US-Map height=4in}
