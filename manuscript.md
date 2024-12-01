@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-01" />
   <meta name="citation_publication_date" content="2024-12-01" />
   <meta property="article:published_time" content="2024-12-01" />
-  <meta name="dc.modified" content="2024-12-01T22:42:16+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T22:42:16+00:00" />
+  <meta name="dc.modified" content="2024-12-01T22:46:19+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T22:46:19+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/cfb9594225bb7c84313461e7232391a15891c6bc/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/cfb9594225bb7c84313461e7232391a15891c6bc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/cfb9594225bb7c84313461e7232391a15891c6bc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/b8ae81f188586d3d888a8c078af64a4130eb66cb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/b8ae81f188586d3d888a8c078af64a4130eb66cb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/b8ae81f188586d3d888a8c078af64a4130eb66cb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/cfb9594225bb7c84313461e7232391a15891c6bc/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/b8ae81f188586d3d888a8c078af64a4130eb66cb/))
 was automatically generated
-from [uiceds/project-team-front-row@cfb9594](https://github.com/uiceds/project-team-front-row/tree/cfb9594225bb7c84313461e7232391a15891c6bc)
+from [uiceds/project-team-front-row@b8ae81f](https://github.com/uiceds/project-team-front-row/tree/b8ae81f188586d3d888a8c078af64a4130eb66cb)
 on December 1, 2024.
 </em></small>
 
@@ -278,20 +278,20 @@ The graph below depicts all of the drunk driving fatalities that occurred in Ill
 
 Additional k-means clustering models were created to provide insights into potential high-risk zones in regards to drunk driving incidents. The seven plots below illustrate the distribution of drunk driving accidents on a daily basis, revealing notable trends throughout the week. Drunk driving incidents show a clear increase during the weekends, particularly on Fridays and Saturdays. 
 
-![sunday_cluster](https://github.com/user-attachments/assets/5331fe96-4b7e-4710-aca3-2439fcf8fdf8)
-![monday_cluster](https://github.com/user-attachments/assets/94a95d60-6a04-4bf6-9fa1-6b296bccf522)
-![tuesday_cluster](https://github.com/user-attachments/assets/d10d2bf2-8a66-4ffa-beee-a9cf79f83557)
-![wednesday_cluster](https://github.com/user-attachments/assets/c12aa34c-e9aa-4714-bb60-f240d9ebbf7f)
-![thursday_cluster](https://github.com/user-attachments/assets/31e374eb-b321-47ba-bf24-2542aafd6b45)
-![friday_cluster](https://github.com/user-attachments/assets/ef4d530c-58f3-43f8-97c0-834ac5cafe0b)
-![saturday_cluster](https://github.com/user-attachments/assets/f3d01a74-22e0-4256-a7d6-933109f1d0d1)
+![Sunday Cluster](https://github.com/user-attachments/assets/5331fe96-4b7e-4710-aca3-2439fcf8fdf8){#fig:US-Map height=4in}
+![Monday Cluster](https://github.com/user-attachments/assets/94a95d60-6a04-4bf6-9fa1-6b296bccf522){#fig:US-Map height=4in}
+![Tuesday Cluster](https://github.com/user-attachments/assets/d10d2bf2-8a66-4ffa-beee-a9cf79f83557){#fig:US-Map height=4in}
+![Wednesday Cluster](https://github.com/user-attachments/assets/c12aa34c-e9aa-4714-bb60-f240d9ebbf7f){#fig:US-Map height=4in}
+![Thursday Cluster](https://github.com/user-attachments/assets/31e374eb-b321-47ba-bf24-2542aafd6b45){#fig:US-Map height=4in}
+![Friday Cluster](https://github.com/user-attachments/assets/ef4d530c-58f3-43f8-97c0-834ac5cafe0b){#fig:US-Map height=4in}
+![Saturday Cluster](https://github.com/user-attachments/assets/f3d01a74-22e0-4256-a7d6-933109f1d0d1){#fig:US-Map height=4in}
 
 Drunk driving incidents across the entire United States  were further analyzed, as depicted by the plot below. The visualization demonstrates the spatial distribution of all drunk driving accidents and the resulting clusters identified using k-means analysis, offering insight into nationwide trends.
 
-![drunk_driving_cluster](https://github.com/user-attachments/assets/968e27bb-8f5b-4736-878e-670363409872)
+![Drunk Driving Cluster](https://github.com/user-attachments/assets/968e27bb-8f5b-4736-878e-670363409872){#fig:US-Map height=4in}
 
 An additional plot focuses on drunk driving accidents involving at least one fatality, with clusters highlighting regions where such incidents are most prevalent. These centroids can inform targeted interventions to reduce the frequency and severity of fatal accidents.
-![drunk_driving_fatalities_cluster](https://github.com/user-attachments/assets/e0397d7e-25c7-4f4e-9f51-9f8011328901)
+![Drunk Driving Fatalities Cluster](https://github.com/user-attachments/assets/e0397d7e-25c7-4f4e-9f51-9f8011328901){#fig:US-Map height=4in}
 
 Some limitations exist with the k-means modeling process. Running the scripts multiple times often results in different centroid locations with each rerun. In the future, this could be corrected by incorporating a weight system into the clustering. Centroids could be weighted based on factors such as fatality count, whether the incident involved drunk driving, or both. This approach would add consistency to the clustering results and allow the model to better reflect the relative severity and risk associated with each cluster. Additionally, further refinement of the algorithm parameters, such as initializing centroids, could enhance the accuracy and reliability of the model.
 
