@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-01" />
   <meta name="citation_publication_date" content="2024-12-01" />
   <meta property="article:published_time" content="2024-12-01" />
-  <meta name="dc.modified" content="2024-12-01T23:14:31+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T23:14:31+00:00" />
+  <meta name="dc.modified" content="2024-12-01T23:16:17+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T23:16:17+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/4a110f65377f6d0a158cd81828614ee9cf2bb25b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/4a110f65377f6d0a158cd81828614ee9cf2bb25b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/4a110f65377f6d0a158cd81828614ee9cf2bb25b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/6c22201ee369d24935a7faa58e5f098b3ff30e6e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/6c22201ee369d24935a7faa58e5f098b3ff30e6e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/6c22201ee369d24935a7faa58e5f098b3ff30e6e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/4a110f65377f6d0a158cd81828614ee9cf2bb25b/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/6c22201ee369d24935a7faa58e5f098b3ff30e6e/))
 was automatically generated
-from [uiceds/project-team-front-row@4a110f6](https://github.com/uiceds/project-team-front-row/tree/4a110f65377f6d0a158cd81828614ee9cf2bb25b)
+from [uiceds/project-team-front-row@6c22201](https://github.com/uiceds/project-team-front-row/tree/6c22201ee369d24935a7faa58e5f098b3ff30e6e)
 on December 1, 2024.
 </em></small>
 
@@ -272,9 +272,9 @@ As we conducted our Exploratory Data Analysis, we aimed to focus in on the state
 
 Based on the analysis conducted on the provided data, a predictive model utilizing k-means clustering can assist in determining ideal locations for the implementation of DUI checkpoints based on crash sites. Adjustment of k in the clustering algorithm can be done using parameters such as resource allocation towards policing in distinct areas. The k-means clustering process will begin by taking crash data with drinking involved within Illinois and the United States. This data will be clustered based on a predefined k value, representative of a decision made based on resource allocation. 
 
-The graph below depicts all of the drunk driving fatalities that occurred in Illinois. Using k-means clustering, the instances were grouped into 5 groups based on their location. 
+The graph below depicts all of the drunk driving incidents that occurred in Illinois. Using k-means clustering, the instances were grouped into 20 groups based on their location. 
 
-![Illinois DD Clusters](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/Illinois.png "Illinois"){#fig:US-Map height=4in}
+![Illinois DD Clusters](https://github.com/uiceds/project-team-front-row/blob/main/content/images/predictive/IL_Overall_Clusters.png "Illinois"){#fig:US-Map height=4in}
 
 Additional k-means clustering models were created to provide insights into potential high-risk zones in regards to drunk driving incidents. The seven plots below illustrate the distribution of drunk driving accidents on a daily basis, revealing notable trends throughout the week. Drunk driving incidents show a clear increase during the weekends, likely due to bars, restaurants, and clubs tending to have higher activity on Friday and Saturday nights. On weekdays, drunk driving incidents appear to be more cluistered along commuter routes. However, on weekends, these clusters appear to shift to more urbanized areas where more recreational zones and leisure activities may be present. In other words, weekend incidents appear more concentrated on city centers. A k-value of 50 (i.e. 50 centroid points) is used for this analysis; however, this value is arbitrary and can be adjusted to suit the needs of policymakers as to where resources can be allocated to most efficiently drunk driving incidents.
 
