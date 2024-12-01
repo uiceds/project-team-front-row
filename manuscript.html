@@ -56,8 +56,8 @@
   <meta name="dc.date" content="2024-12-01" />
   <meta name="citation_publication_date" content="2024-12-01" />
   <meta property="article:published_time" content="2024-12-01" />
-  <meta name="dc.modified" content="2024-12-01T23:16:17+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T23:16:17+00:00" />
+  <meta name="dc.modified" content="2024-12-01T23:18:38+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T23:18:38+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -78,9 +78,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/6c22201ee369d24935a7faa58e5f098b3ff30e6e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/6c22201ee369d24935a7faa58e5f098b3ff30e6e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/6c22201ee369d24935a7faa58e5f098b3ff30e6e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/fb27e0d1e02b5f54ec993b6c9d011a700b1531e2/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/fb27e0d1e02b5f54ec993b6c9d011a700b1531e2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/fb27e0d1e02b5f54ec993b6c9d011a700b1531e2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -97,9 +97,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/project-team-front-row/v/6c22201ee369d24935a7faa58e5f098b3ff30e6e/">permalink</a>)
+(<a href="https://uiceds.github.io/project-team-front-row/v/fb27e0d1e02b5f54ec993b6c9d011a700b1531e2/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/project-team-front-row/tree/6c22201ee369d24935a7faa58e5f098b3ff30e6e">uiceds/project-team-front-row@6c22201</a>
+from <a href="https://github.com/uiceds/project-team-front-row/tree/fb27e0d1e02b5f54ec993b6c9d011a700b1531e2">uiceds/project-team-front-row@fb27e0d</a>
 on December 1, 2024.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -473,7 +473,7 @@ Riley Kelch &lt;rjkelch2@illinois.edu&gt;.</p>
 <h2 id="prj3.1-predictive-modeling">PRJ3.1 Predictive Modeling</h2>
 <h4 id="predictive-modeling">Predictive Modeling</h4>
 <p>Based on the analysis conducted on the provided data, a predictive model utilizing k-means clustering can assist in determining ideal locations for the implementation of DUI checkpoints based on crash sites. Adjustment of k in the clustering algorithm can be done using parameters such as resource allocation towards policing in distinct areas. The k-means clustering process will begin by taking crash data with drinking involved within Illinois and the United States. This data will be clustered based on a predefined k value, representative of a decision made based on resource allocation.</p>
-<p>The graph below depicts all of the drunk driving incidents that occurred in Illinois. Using k-means clustering, the instances were grouped into 20 groups based on their location.</p>
+<p>The graph below depicts all of the drunk driving incidents that occurred in Illinois. Using k-means clustering, the instances were grouped into 20 groups based on their location. These groups were then snapped to the nearest major interstate in order to avoid centroid points being placed in unrealistic locations such as over agricultural land.</p>
 <div id="fig:US-Map" class="fignos">
 <figure>
 <img src="https://github.com/uiceds/project-team-front-row/blob/main/content/images/predictive/IL_Overall_Clusters.png" style="height:4in" alt="Figure 7: Illinois DD Clusters" />
