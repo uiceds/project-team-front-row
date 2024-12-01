@@ -1,7 +1,6 @@
 centroid
 centroids
 ckimber
-cluistered
 COND
 CSV
 Daggett
