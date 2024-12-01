@@ -1,5 +1,5 @@
 centroid
-centroids
+Centroids
 ckimber
 cluistered
 COND

@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-01" />
   <meta name="citation_publication_date" content="2024-12-01" />
   <meta property="article:published_time" content="2024-12-01" />
-  <meta name="dc.modified" content="2024-12-01T23:08:49+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T23:08:49+00:00" />
+  <meta name="dc.modified" content="2024-12-01T23:12:28+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T23:12:28+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/bfd3dfe010a302a0596e4f64d28dc01669dd4864/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/bfd3dfe010a302a0596e4f64d28dc01669dd4864/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/bfd3dfe010a302a0596e4f64d28dc01669dd4864/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/727715f7c0edf4a0d3a5e53d94302aa1343283db/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/727715f7c0edf4a0d3a5e53d94302aa1343283db/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/727715f7c0edf4a0d3a5e53d94302aa1343283db/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/bfd3dfe010a302a0596e4f64d28dc01669dd4864/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/727715f7c0edf4a0d3a5e53d94302aa1343283db/))
 was automatically generated
-from [uiceds/project-team-front-row@bfd3dfe](https://github.com/uiceds/project-team-front-row/tree/bfd3dfe010a302a0596e4f64d28dc01669dd4864)
+from [uiceds/project-team-front-row@727715f](https://github.com/uiceds/project-team-front-row/tree/727715f7c0edf4a0d3a5e53d94302aa1343283db)
 on December 1, 2024.
 </em></small>
 
@@ -286,7 +286,7 @@ Additional k-means clustering models were created to provide insights into poten
 ![Friday Cluster](https://github.com/uiceds/project-team-front-row/blob/main/content/images/predictive/US_Friday_Clusters.png "Friday Cluster"){#fig:US-Map height=4in}
 ![Saturday Cluster](https://github.com/uiceds/project-team-front-row/blob/main/content/images/predictive/US_Saturday_Clusters.png "Saturday Cluster"){#fig:US-Map height=4in}
 
-Drunk driving incidents across the entire United States  were further analyzed, as depicted by the plot below. The visualization demonstrates the spatial distribution of all drunk driving accidents and the resulting clusters identified using k-means analysis, offering insight into nationwide trends.
+Drunk driving incidents across the entire United States  were further analyzed, as depicted by the plot below. The visualization demonstrates the spatial distribution of all drunk driving accidents and the resulting clusters identified using k-means analysis, offering insight into nationwide trends. As expected, the amount of incidents are most dense in areas with higher populations. However, some major interstates contain higher amounts of centroid points than others, indicating to drivers areas they may want to avoid as well as informing law enforcement areas to increase measures to reduce drunk driving incidents.
 
 ![Drunk Driving Cluster](https://github.com/uiceds/project-team-front-row/blob/main/content/images/predictive/US_Overall_Clusters.png "Overall Drunk Driving Cluster"){#fig:US-Map height=4in}
 
