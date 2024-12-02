@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T05:45:27+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T05:45:27+00:00" />
+  <meta name="dc.modified" content="2024-12-02T05:51:25+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T05:51:25+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/0209743e13b1dc6d103d605fdfd5e8bc50532e83/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/0209743e13b1dc6d103d605fdfd5e8bc50532e83/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/0209743e13b1dc6d103d605fdfd5e8bc50532e83/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/501b4781ff5d4e851faec199cc094803337dd85d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/501b4781ff5d4e851faec199cc094803337dd85d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/501b4781ff5d4e851faec199cc094803337dd85d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/0209743e13b1dc6d103d605fdfd5e8bc50532e83/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/501b4781ff5d4e851faec199cc094803337dd85d/))
 was automatically generated
-from [uiceds/project-team-front-row@0209743](https://github.com/uiceds/project-team-front-row/tree/0209743e13b1dc6d103d605fdfd5e8bc50532e83)
+from [uiceds/project-team-front-row@501b478](https://github.com/uiceds/project-team-front-row/tree/501b4781ff5d4e851faec199cc094803337dd85d)
 on December 2, 2024.
 </em></small>
 
@@ -300,9 +300,9 @@ Additional consideration was given towards dimensions of time regarding crash li
 
 The model below represents a neural network designed to predict high-risk areas for drunk driving accidents in Illinois, potentially useful for the Illinois State Police. It is a multiple dense-layered, supervised, feedforward neural network. Standardization and component engineering were employed to improve model performance. The independent variables used in the model include the day of the week, the hour of the shift, weather conditions, and latitudinal and longitudinal bins corresponding to a twenty-mile radius. The dependent variable is the number of drunk driver crashes. Unlike simply calculating the average number of accidents per area, this model incorporates additional factors such as time and weather conditions, offering a more precise prediction of high-risk areas. By considering these variables, the model allows law enforcement to focus patrol efforts based on the conditions that increase the likelihood of drunk driving accidents, making it a more actionable tool than average-based approaches.
 
-The figures below represent visualizations with varying input data for specific standard police patrol shifts. The figures below represent visualizations based on varying input data for specific standard police patrol shifts. For instance, a police officer working on a Friday from 12 PM to 12 AM with current rainy weather conditions could input the day, time of shift, and weather into the model. The model would then generate predictions, highlighting the 20-mile radii areas with the highest probabilities of drunk driving accidents. 
+The figures below represent visualizations with varying input data for specific standard police patrol shifts. The figures below represent visualizations based on varying input data for specific standard police patrol shifts. For instance, a police officer working on a Friday from 12 PM to 12 AM with current rainy weather conditions could input the day, time of shift, and weather into the model. The model would then generate predictions, highlighting the 20-mile radii areas with the highest probabilities of drunk driving accidents, as seen in Figure 9. 
 
-Figure 10 displays the predicted high-risk areas for drunk driving accidents on Saturday from 6 PM to 12 AM under clear weather conditions, while Figure 11 illustrates similar predictions for Sunday from 12 AM to 4 AM, but for all weather conditions.
+Figure 10 displays the predicted high-risk areas for drunk driving accidents on Saturday from 6 PM to 12 AM under clear weather conditions, while Figure 11 illustrates similar predictions for Sunday from 12 AM to 4 AM, but for all weather conditions. Figure 10 and 11 have more areas of interests, due that more drunk driving fatalities commonly occur on late Saturday nights. 
 
 After producing the map, the law enforcement officer could focus patrols on the displayed areas.
 
