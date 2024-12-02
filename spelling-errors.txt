@@ -2,7 +2,7 @@ centroid
 Centroids
 ckimber
 COND
-CSV
+csv
 Daggett
 datapoint
 dataset
