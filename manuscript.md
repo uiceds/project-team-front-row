@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-12-01'
+date-meta: '2024-12-02'
 author-meta:
 - Justin Rebholz
 - Cameron Kimber
@@ -22,11 +22,11 @@ header-includes: |
   <meta name="citation_title" content="Analysis of Traffic Fatality Records" />
   <meta property="og:title" content="Analysis of Traffic Fatality Records" />
   <meta property="twitter:title" content="Analysis of Traffic Fatality Records" />
-  <meta name="dc.date" content="2024-12-01" />
-  <meta name="citation_publication_date" content="2024-12-01" />
-  <meta property="article:published_time" content="2024-12-01" />
-  <meta name="dc.modified" content="2024-12-01T23:21:59+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T23:21:59+00:00" />
+  <meta name="dc.date" content="2024-12-02" />
+  <meta name="citation_publication_date" content="2024-12-02" />
+  <meta property="article:published_time" content="2024-12-02" />
+  <meta name="dc.modified" content="2024-12-02T00:46:30+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T00:46:30+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/ea270c6c69b9ab1d2f8b000ff597857a975630aa/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/ea270c6c69b9ab1d2f8b000ff597857a975630aa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/ea270c6c69b9ab1d2f8b000ff597857a975630aa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/ef19f07327110c8b70f874e98e0cf692eb0e0e91/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/ef19f07327110c8b70f874e98e0cf692eb0e0e91/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/ef19f07327110c8b70f874e98e0cf692eb0e0e91/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,10 +71,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/ea270c6c69b9ab1d2f8b000ff597857a975630aa/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/ef19f07327110c8b70f874e98e0cf692eb0e0e91/))
 was automatically generated
-from [uiceds/project-team-front-row@ea270c6](https://github.com/uiceds/project-team-front-row/tree/ea270c6c69b9ab1d2f8b000ff597857a975630aa)
-on December 1, 2024.
+from [uiceds/project-team-front-row@ef19f07](https://github.com/uiceds/project-team-front-row/tree/ef19f07327110c8b70f874e98e0cf692eb0e0e91)
+on December 2, 2024.
 </em></small>
 
 
