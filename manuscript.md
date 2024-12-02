@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T03:40:23+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T03:40:23+00:00" />
+  <meta name="dc.modified" content="2024-12-02T03:43:10+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T03:43:10+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/8ab03fef8b6124ba90b68055d7165bcce6a76ea2/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/8ab03fef8b6124ba90b68055d7165bcce6a76ea2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/8ab03fef8b6124ba90b68055d7165bcce6a76ea2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/cdf610abeb6cf934b428df49ee55afa2aaae300a/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/cdf610abeb6cf934b428df49ee55afa2aaae300a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/cdf610abeb6cf934b428df49ee55afa2aaae300a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/8ab03fef8b6124ba90b68055d7165bcce6a76ea2/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/cdf610abeb6cf934b428df49ee55afa2aaae300a/))
 was automatically generated
-from [uiceds/project-team-front-row@8ab03fe](https://github.com/uiceds/project-team-front-row/tree/8ab03fef8b6124ba90b68055d7165bcce6a76ea2)
+from [uiceds/project-team-front-row@cdf610a](https://github.com/uiceds/project-team-front-row/tree/cdf610abeb6cf934b428df49ee55afa2aaae300a)
 on December 2, 2024.
 </em></small>
 
@@ -135,7 +135,7 @@ Riley Kelch \<rjkelch2@illinois.edu\>.
 ## Abstract {.page_break_before}
 
 #### Description
-The dataset that will be used for this project is the Fatality Analysis Reporting System created by the National Highway Safety Administration. The data will be obtained from the NHTSA’s FARS database, which is publicly accessible.The FARS dataset is available in the CSV format. The specific subset data that our project will be focused on is labeled "accidents.csv" and includes 32K+ instances and 52 columns. The columns descriptions are described in the Fatality Analysis Reporting System (FARS) Analytical User’s Manual 1975-2015 and in the below table:
+In this analysis, traffic data from the Fatality Analysis Reporting System (FARS) created by the National Highway Safety Administration (NHTSA) is used to predict where traffic accidents are most likely to occur spatially and temporally. FARS is a nationwide census that records information on every fatal motor vehicle accident in the United States. The FARS dataset for the year 2015 is available in the CSV format. The specific subset data that this project will be focused on is labeled “accidents.csv” and includes 32K+ instances and 52 columns. The columns are described in the FARS Analytical User’s Manual and in the below table: 
 
 | Column        | Description         | 
 |:-----------------:|:-------------:|
@@ -197,7 +197,7 @@ Table: Abbreviation Legend.
 Link: <https://www.kaggle.com/datasets/nhtsa/2015-traffic-fatalities>
 
 #### Plan and Proposal
-Using the FARS dataset, we aim to understand the trends in traffic fatalities in a given year and what factors are affecting those trends. Specifically, we will look to implement safety factors that guard against drunk driving (traffic cameras, sensor systems, DUI checkpoints, etc.) We will also look at how the different variables play a role in the severity of the accident and identify geographic regions that are more prone to accidents. The trends in traffic fatalities found through this project can be used to inform policy makers and ultimately decrease the number of traffic fatalities. 
+Using the FARS dataset from the year 2015, our team aims to understand the trends in traffic fatalities over the entire continental United States as well as just Illinois and what factors are affecting those trends. This analysis can then be used to implement safety factors that guard against drunk driving (traffic cameras, sensor systems, DUI checkpoints, etc.) The trends in traffic fatalities found through this data analysis can be used to inform policy makers and ultimately decrease the number of traffic fatalities. 
 
 
 
