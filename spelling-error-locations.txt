@@ -37,10 +37,10 @@ content/04.predictive.md:26:Centroids
 content/04.predictive.md:30:feedforward
 content/04.predictive.md:40:nueral
 content/05.discussion.md:1:PRJ
-content/05.discussion.md:8:centroid
-content/05.discussion.md:10:centroids
-content/05.discussion.md:10:reproducibility
-content/05.discussion.md:12:reproducibility
+content/05.discussion.md:9:centroid
+content/05.discussion.md:11:centroids
+content/05.discussion.md:11:reproducibility
+content/05.discussion.md:13:reproducibility
 content/90.back-matter.md:2:kaggle
 content/90.back-matter.md:2:Kaggle
 content/90.back-matter.md:2:nhtsa

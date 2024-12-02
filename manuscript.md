@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T03:57:54+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T03:57:54+00:00" />
+  <meta name="dc.modified" content="2024-12-02T04:00:51+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T04:00:51+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/f80444ad5327a1af7df29364b898acb127e3f4ad/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/f80444ad5327a1af7df29364b898acb127e3f4ad/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/f80444ad5327a1af7df29364b898acb127e3f4ad/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/22a90ec202e3602330c899ab15f94805fa28f395/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/22a90ec202e3602330c899ab15f94805fa28f395/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/22a90ec202e3602330c899ab15f94805fa28f395/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/f80444ad5327a1af7df29364b898acb127e3f4ad/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/22a90ec202e3602330c899ab15f94805fa28f395/))
 was automatically generated
-from [uiceds/project-team-front-row@f80444a](https://github.com/uiceds/project-team-front-row/tree/f80444ad5327a1af7df29364b898acb127e3f4ad)
+from [uiceds/project-team-front-row@22a90ec](https://github.com/uiceds/project-team-front-row/tree/22a90ec202e3602330c899ab15f94805fa28f395)
 on December 2, 2024.
 </em></small>
 
@@ -311,7 +311,8 @@ Possible further development of the nueral network model includes allowing for m
 
 ### Discussion
 
-<u>K-means modeling discussion</u>
+K-means modeling discussion
+
 The findings of this project provide insight into the temporal and spatial distribution of drunk driving incidents, both within Illinois and across the United States. By using k-means clustering to identify high risk areas, this analysis offers a starting point for policymakers and law enforcement to allocate resources efficiently in addressing drunk driving. Several key implications, limitations, and potential next steps emerge from the work done in this analysis. 
 
 The k-means model demonstrates its usefulness in identifying patterns in drunk driving incidents based on their spatial distribution. Nationwide, the analysis confirms the intuitive relationship between population density and the frequency of incidents, with denser regions and major interstates showing the highest concentration of incidents. However, some interstates exhibit higher numbers of centroid points, identifying potential targets for intervention, such as enhanced law enforcement presence.
