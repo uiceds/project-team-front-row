@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-02" />
   <meta name="citation_publication_date" content="2024-12-02" />
   <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T04:16:04+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T04:16:04+00:00" />
+  <meta name="dc.modified" content="2024-12-02T05:32:25+00:00" />
+  <meta property="article:modified_time" content="2024-12-02T05:32:25+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/cc1dd4daea41627b8969c97448e5c6e7d11cbb36/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/cc1dd4daea41627b8969c97448e5c6e7d11cbb36/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/cc1dd4daea41627b8969c97448e5c6e7d11cbb36/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/06912c52918e8e539ee249bb69099ea7f45b9b9e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/06912c52918e8e539ee249bb69099ea7f45b9b9e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/06912c52918e8e539ee249bb69099ea7f45b9b9e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/cc1dd4daea41627b8969c97448e5c6e7d11cbb36/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/06912c52918e8e539ee249bb69099ea7f45b9b9e/))
 was automatically generated
-from [uiceds/project-team-front-row@cc1dd4d](https://github.com/uiceds/project-team-front-row/tree/cc1dd4daea41627b8969c97448e5c6e7d11cbb36)
+from [uiceds/project-team-front-row@06912c5](https://github.com/uiceds/project-team-front-row/tree/06912c52918e8e539ee249bb69099ea7f45b9b9e)
 on December 2, 2024.
 </em></small>
 
@@ -269,6 +269,8 @@ As we conducted our Exploratory Data Analysis, we aimed to focus in on the state
 
 #### Predictive Modeling
 
+##### K-means
+
 
 Based on the analysis conducted on the provided data, a predictive model utilizing k-means clustering can assist in determining ideal locations for the implementation of DUI checkpoints based on crash sites. Adjustment of k in the clustering algorithm can be done using parameters such as resource allocation towards policing in distinct areas. The k-means clustering process will begin by taking crash data with drinking involved within Illinois and the United States. This data will be clustered based on a predefined k value, representative of a decision made based on resource allocation. 
 
@@ -294,7 +296,9 @@ Some limitations exist with the k-means modeling process. Running the scripts mu
 
 Additional consideration was given towards dimensions of time regarding crash likelihood. According to Figure 4, noticeable variation occurs in the amount of accidents occurring at specific times of day, indicating a need to manage resource allocation with time consideration. The implementation of a neural network using the provided data can be applied towards a proposal regarding DUI checkpoint locations or patrol areas in designated areas based on available resources and shift time, therefore optimizing provision of safety from DUI-related incidents.
 
-The model and figures below represent a neural network model that has the potential to be utilized by the Illinois State Police. The inputs to the model consist of day of week, hours of shift, and current weather conditions. The model then predicts which twenty mile radius patrol zones in Illinois will likely yield the highest probability of fatal drunk driving accidents, thus prompting supervisors to direct units to those areas. The model is trained on labeled data, taking into account latitudinal and longitudinal bins of a twenty mile radius in Illinois. The model is a multiple dense-layered, supervised, feedforward neural network. Standardization and component engineering were used in this model.
+##### Neural Network
+
+The model below represents a neural network designed to predict high-risk areas for drunk driving accidents in Illinois, potentially useful for the Illinois State Police. It is a multiple dense-layered, supervised, feedforward neural network. Standardization and component engineering were employed to improve model performance. The independent variables used in the model include the day of the week, the hour of the shift, weather conditions, and latitudinal and longitudinal bins corresponding to a twenty-mile radius. The dependent variable is the number of drunk driver crashes. Unlike simply calculating the average number of accidents per area, this model incorporates additional factors such as time and weather conditions, offering a more precise prediction of high-risk areas. By considering these variables, the model allows law enforcement to focus patrol efforts based on the conditions that increase the likelihood of drunk driving accidents, making it a more actionable tool than average-based approaches.
 
 The figures below represent visualizations with varying input data for specific standard police patrol shifts. 
 
@@ -304,12 +308,11 @@ The figures below represent visualizations with varying input data for specific 
 
 ![Sunday Plot](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/sunday.png "Sunday Plot"){#fig:US-Map height=4in}
 
-Possible further development of the nueral network model includes allowing for more input variables (i.e. month, traffic density, etc),comparing the model to later-year data, and use of advanced regularization. "One-hot coding" is also being explored as an area of interest to reduce impartiality to specific days of the week or times (i.e. 1=Sunday). One-hot coding would ensure the model did not interpret numerical symbols to have a magnitude or significance.
 
 
 ## PRJ 4.1 Discussion
 
-### K-means modeling 
+### K-means Modeling 
 
 The findings of this project provide insight into the temporal and spatial distribution of drunk driving incidents, both within Illinois and across the United States. By using k-means clustering to identify high risk areas, this analysis offers a starting point for policymakers and law enforcement to allocate resources efficiently in addressing drunk driving. Several key implications, limitations, and potential next steps emerge from the work done in this analysis. 
 
@@ -318,6 +321,10 @@ The k-means model demonstrates its usefulness in identifying patterns in drunk d
 While the clusters provide valuable insights, the model’s reliance on a fixed k-value introduces some subjectivity. Though the k-values were set in this analysis, they remain arbitrary and may need adjustment to better suit a specific region’s needs or policy objectives. These k-values can be tailored to the desired scale of intervention or available resources, ensuring that high-risk zones are accurately identified. There are further limitations with the k-means clustering model. The k-means algorithm’s randomness in its initialization of centroids can result in a variation of cluster locations across multiple runs of the model. This inconsistency undermines the reproducibility of the results. Future implementations should explore methods to stabilize cluster initialization. Furthermore, the model treats all incidents equally, without accounting for factors such as fatality counts. Incorporating a weighting system could improve the model’s accuracy by emphasizing more severe incidents, leading to a more meaningful representation of risk analysis.
 
 If this project were to continue beyond this current semester, the model could be improved to take in additional factors such as weather, road conditions, and event data to enrich the clustering model and perhaps increase the reproducibility of the results. Additionally, more data could be used over a larger span of time, especially for smaller communities in which the amount of drunk driving incidents might not be large enough over the course of a single year to create meaningful clusters.
+
+### Neural Network 
+
+While the neural network model shows promise, its current accuracy does not make it usable for practical purposes. A negative R² value was calculated, which indicates a poor model fit. This is primarily due to the limitation of the dataset, which includes only one year of fatal accident data. Although the model’s accuracy is not yet high enough to be considered fully reliable, any reduction in drunk driving accidents, even modest, could still have a significant positive impact on public safety. To improve the model's accuracy, one potential approach would be to extend the dataset to include all DUI-related incidents, not just fatal accidents. Additionally, using data from multiple years could help the model capture more diverse patterns and improve its overall performance.
 
 
 ## References {.page_break_before}

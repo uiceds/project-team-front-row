@@ -2,7 +2,7 @@ centroid
 centroids
 ckimber
 COND
-CSV
+csv
 Daggett
 datapoint
 dataset
@@ -26,7 +26,6 @@ milepoint
 MILEPT
 NHS
 NHTSA
-nueral
 occured
 PEDS
 PERMVIT
