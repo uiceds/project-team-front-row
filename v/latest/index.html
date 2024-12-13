@@ -56,8 +56,8 @@
   <meta name="dc.date" content="2024-12-13" />
   <meta name="citation_publication_date" content="2024-12-13" />
   <meta property="article:published_time" content="2024-12-13" />
-  <meta name="dc.modified" content="2024-12-13T19:11:21+00:00" />
-  <meta property="article:modified_time" content="2024-12-13T19:11:21+00:00" />
+  <meta name="dc.modified" content="2024-12-13T21:29:07+00:00" />
+  <meta property="article:modified_time" content="2024-12-13T21:29:07+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -78,9 +78,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/5e8d80ea6424954ab5c491d2055926f74fae5886/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/5e8d80ea6424954ab5c491d2055926f74fae5886/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/5e8d80ea6424954ab5c491d2055926f74fae5886/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/a00126540307d984f31cdc219d3afaf43704c24a/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/a00126540307d984f31cdc219d3afaf43704c24a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/a00126540307d984f31cdc219d3afaf43704c24a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -97,9 +97,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/project-team-front-row/v/5e8d80ea6424954ab5c491d2055926f74fae5886/">permalink</a>)
+(<a href="https://uiceds.github.io/project-team-front-row/v/a00126540307d984f31cdc219d3afaf43704c24a/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/project-team-front-row/tree/5e8d80ea6424954ab5c491d2055926f74fae5886">uiceds/project-team-front-row@5e8d80e</a>
+from <a href="https://github.com/uiceds/project-team-front-row/tree/a00126540307d984f31cdc219d3afaf43704c24a">uiceds/project-team-front-row@a001265</a>
 on December 13, 2024.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -477,7 +477,7 @@ Riley Kelch &lt;rjkelch2@illinois.edu&gt;.</p>
 <h4 id="predictive-modeling">Predictive Modeling</h4>
 <h5 id="k-means">K-means</h5>
 <p>Based on the analysis conducted on the provided data, a predictive model utilizing k-means clustering can assist in determining ideal locations for the implementation of DUI checkpoints based on crash sites. Adjustment of k in the clustering algorithm can be done using parameters such as resource allocation towards policing in distinct areas. The k-means clustering process will begin by taking crash data with drinking involved within Illinois and the United States. This data will be clustered based on a predefined k value, representative of a decision made based on resource allocation.</p>
-<p>The graph below depicts all of the drunk driving incidents that occurred in Illinois. Using k-means clustering, the instances were grouped into 20 groups based on their location. These groups were then snapped to the nearest major interstate in order to avoid centroid points being placed in unrealistic locations such as over agricultural land.</p>
+<p>Figure 7 below depicts all of the drunk driving incidents that occurred in Illinois. Using k-means clustering, the instances were grouped into 20 groups based on their location. These groups were then snapped to the nearest major interstate in order to avoid centroid points being placed in unrealistic locations such as over agricultural land.</p>
 <div id="fig:US-Map" class="fignos">
 <figure>
 <img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/IL_Overall_Clusters.png" style="height:4in" alt="Figure 7: Illinois DD Clusters" />
@@ -485,18 +485,53 @@ Riley Kelch &lt;rjkelch2@illinois.edu&gt;.</p>
 </figure>
 </div>
 <p>Additional k-means clustering models were created to provide insights into potential high-risk zones in regards to drunk driving incidents. The seven plots below illustrate the distribution of drunk driving accidents on a daily basis, revealing notable trends throughout the week. Drunk driving incidents show a clear increase during the weekends, likely due to bars, restaurants, and clubs tending to have higher activity on Friday and Saturday nights. On weekdays, drunk driving incidents appear to be more clustered along commuter routes. However, on weekends, these clusters appear to shift to more urbanized areas where more recreational zones and leisure activities may be present. In other words, weekend incidents appear more concentrated on city centers. A k-value of 50 (i.e. 50 centroid points) is used for this analysis; however, this value is arbitrary and can be adjusted to suit the needs of policymakers as to where resources can be allocated to most efficiently drunk driving incidents.</p>
-<p><img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Sunday_Clusters.png" title="Sunday Cluster" id="fig:US-Map" style="height:4in" alt="Sunday Cluster" />
-<img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Monday_Clusters.png" title="Monday Cluster" id="fig:US-Map" style="height:4in" alt="Monday Cluster" />
-<img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Tuesday_Clusters.png" title="Tuesday Cluster" id="fig:US-Map" style="height:4in" alt="Tuesday Cluster" />
-<img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Wednesday_Clusters.png" title="Wednesday Cluster" id="fig:US-Map" style="height:4in" alt="Wednesday Cluster" />
-<img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Thursday_Clusters.png" title="Thursday Cluster" id="fig:US-Map" style="height:4in" alt="Thursday Cluster" />
-<img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Friday_Clusters.png" title="Friday Cluster" id="fig:US-Map" style="height:4in" alt="Friday Cluster" />
-<img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Saturday_Clusters.png" title="Saturday Cluster" id="fig:US-Map" style="height:4in" alt="Saturday Cluster" /></p>
-<p>Drunk driving incidents across the entire United States were further analyzed, as depicted by the plot below. The visualization demonstrates the spatial distribution of all drunk driving accidents and the resulting clusters identified using k-means analysis, offering insight into nationwide trends. As expected, the amount of incidents are most dense in areas with higher populations. However, some major interstates contain higher amounts of centroid points than others, indicating to drivers areas they may want to avoid as well as informing law enforcement areas to increase measures to reduce drunk driving incidents.</p>
 <div id="fig:US-Map" class="fignos">
 <figure>
-<img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Overall_Clusters.png" style="height:4in" alt="Figure 8: Drunk Driving Cluster" />
-<figcaption aria-hidden="true"><span>Figure 8:</span> Drunk Driving Cluster</figcaption>
+<img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Sunday_Clusters.png" style="height:4in" alt="Figure 8: Sunday Cluster" />
+<figcaption aria-hidden="true"><span>Figure 8:</span> Sunday Cluster</figcaption>
+</figure>
+</div>
+<div id="fig:US-Map" class="fignos">
+<figure>
+<img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Monday_Clusters.png" style="height:4in" alt="Figure 9: Monday Cluster" />
+<figcaption aria-hidden="true"><span>Figure 9:</span> Monday Cluster</figcaption>
+</figure>
+</div>
+<div id="fig:US-Map" class="fignos">
+<figure>
+<img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Tuesday_Clusters.png" style="height:4in" alt="Figure 10: Tuesday Cluster" />
+<figcaption aria-hidden="true"><span>Figure 10:</span> Tuesday Cluster</figcaption>
+</figure>
+</div>
+<div id="fig:US-Map" class="fignos">
+<figure>
+<img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Wednesday_Clusters.png" style="height:4in" alt="Figure 11: Wednesday Cluster" />
+<figcaption aria-hidden="true"><span>Figure 11:</span> Wednesday Cluster</figcaption>
+</figure>
+</div>
+<div id="fig:US-Map" class="fignos">
+<figure>
+<img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Thursday_Clusters.png" style="height:4in" alt="Figure 12: Thursday Cluster" />
+<figcaption aria-hidden="true"><span>Figure 12:</span> Thursday Cluster</figcaption>
+</figure>
+</div>
+<div id="fig:US-Map" class="fignos">
+<figure>
+<img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Friday_Clusters.png" style="height:4in" alt="Figure 13: Friday Cluster" />
+<figcaption aria-hidden="true"><span>Figure 13:</span> Friday Cluster</figcaption>
+</figure>
+</div>
+<div id="fig:US-Map" class="fignos">
+<figure>
+<img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Saturday_Clusters.png" style="height:4in" alt="Figure 14: Saturday Cluster" />
+<figcaption aria-hidden="true"><span>Figure 14:</span> Saturday Cluster</figcaption>
+</figure>
+</div>
+<p>Drunk driving incidents across the entire United States were further analyzed, as depicted by Figure 8 below. The visualization demonstrates the spatial distribution of all drunk driving accidents and the resulting clusters identified using k-means analysis, offering insight into nationwide trends. As expected, the amount of incidents are most dense in areas with higher populations. However, some major interstates contain higher amounts of centroid points than others, indicating to drivers areas they may want to avoid as well as informing law enforcement areas to increase measures to reduce drunk driving incidents.</p>
+<div id="fig:US-Map" class="fignos">
+<figure>
+<img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Overall_Clusters.png" style="height:4in" alt="Figure 15: Drunk Driving Cluster" />
+<figcaption aria-hidden="true"><span>Figure 15:</span> Drunk Driving Cluster</figcaption>
 </figure>
 </div>
 <p>Some limitations exist with the k-means modeling process. Running the scripts multiple times often results in different centroid locations with each rerun. In the future, this could be corrected by incorporating a weight system into the clustering. Centroids could be weighted based on factors such as fatality count, whether the incident involved drunk driving, or both. This approach would add consistency to the clustering results and allow the model to better reflect the relative severity and risk associated with each cluster. Additionally, further refinement of the algorithm parameters, such as initializing centroids, could enhance the accuracy and reliability of the model.</p>
@@ -508,8 +543,8 @@ Riley Kelch &lt;rjkelch2@illinois.edu&gt;.</p>
 <p>After producing the output map, the law enforcement officer could focus patrols on the displayed areas.</p>
 <div id="fig:US-Map" class="fignos">
 <figure>
-<img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/nn_traffic_combined.png" style="height:6in" alt="Figure 9: 3-Day Output from Neural Network Model" />
-<figcaption aria-hidden="true"><span>Figure 9:</span> 3-Day Output from Neural Network Model</figcaption>
+<img src="https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/nn_traffic_combined.png" style="height:6in" alt="Figure 16: 3-Day Output from Neural Network Model" />
+<figcaption aria-hidden="true"><span>Figure 16:</span> 3-Day Output from Neural Network Model</figcaption>
 </figure>
 </div>
 <h2 id="prj-4.1-discussion">PRJ 4.1 Discussion</h2>
