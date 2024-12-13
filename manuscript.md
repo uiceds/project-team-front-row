@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-13" />
   <meta name="citation_publication_date" content="2024-12-13" />
   <meta property="article:published_time" content="2024-12-13" />
-  <meta name="dc.modified" content="2024-12-13T17:55:20+00:00" />
-  <meta property="article:modified_time" content="2024-12-13T17:55:20+00:00" />
+  <meta name="dc.modified" content="2024-12-13T18:03:21+00:00" />
+  <meta property="article:modified_time" content="2024-12-13T18:03:21+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/fd87bf61d941cadf2b5433382b889c7ca336481e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/fd87bf61d941cadf2b5433382b889c7ca336481e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/fd87bf61d941cadf2b5433382b889c7ca336481e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/7b5327e1a588758f0f0f3b617daf2fc6ce6e57d1/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/7b5327e1a588758f0f0f3b617daf2fc6ce6e57d1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/7b5327e1a588758f0f0f3b617daf2fc6ce6e57d1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/fd87bf61d941cadf2b5433382b889c7ca336481e/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/7b5327e1a588758f0f0f3b617daf2fc6ce6e57d1/))
 was automatically generated
-from [uiceds/project-team-front-row@fd87bf6](https://github.com/uiceds/project-team-front-row/tree/fd87bf61d941cadf2b5433382b889c7ca336481e)
+from [uiceds/project-team-front-row@7b5327e](https://github.com/uiceds/project-team-front-row/tree/7b5327e1a588758f0f0f3b617daf2fc6ce6e57d1)
 on December 13, 2024.
 </em></small>
 
@@ -134,8 +134,13 @@ Riley Kelch \<rjkelch2@illinois.edu\>.
 
 ## Abstract {.page_break_before}
 
+#### Introduction
+Drunk driving fatalities are a significant concern to public safety, demanding targeted strategies to mitigate risks and save lives. This report analyzes traffic fatality data from the Fatality Analysis Reporting System (FARS), a nationwide census curated by the National Highway Traffic Safety Administration (NHTSA), with the goal of identifying patterns that can inform preventive measures. Using the 2015 FARS dataset, we focus on spatial and temporal trends in fatal motor vehicle accidents across the United States, with a particular emphasis on Illinois.
+
+By examining factors such as drunk driving, time of day, and weather conditions, this report uncovers critical insights through exploratory data analysis. Additionally, predictive models, including k-means clustering and neural networks, are employed to forecast high-risk areas for fatal crashes, offering actionable guidance for resource allocation, such as the placement of DUI checkpoints. These findings aim to empower policymakers and law enforcement with data-driven solutions to reduce fatalities and enhance road safety.
+
 #### Description
-In this analysis, traffic data from the Fatality Analysis Reporting System (FARS) created by the National Highway Safety Administration (NHTSA) is used to predict where traffic accidents are most likely to occur spatially and temporally. FARS is a nationwide census that records information on every fatal motor vehicle accident in the United States. The FARS dataset for the year 2015 is available in the CSV format. The specific subset data that this project will be focused on is labeled “accidents.csv” and includes 32K+ instances and 52 columns. The columns are described in the FARS Analytical User’s Manual and in the below table: 
+In this analysis, traffic data from the FARS created by the NNHTSA is used to predict where traffic accidents are most likely to occur spatially and temporally. FARS is a nationwide census that records information on every fatal motor vehicle accident in the United States. The FARS dataset for the year 2015 is available in the CSV format. The specific subset data that this project will be focused on is labeled “accidents.csv” and includes 32K+ instances and 52 columns. The columns are described in the FARS Analytical User’s Manual and in the below table: 
 
 | Column        | Description         | 
 |:-----------------:|:-------------:|
