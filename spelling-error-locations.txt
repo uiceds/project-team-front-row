@@ -40,11 +40,11 @@ content/04.predictive.md:28:Centroids
 content/04.predictive.md:34:feedforward
 content/05.discussion.md:1:PRJ
 content/05.discussion.md:7:centroid
-content/05.discussion.md:9:centroids
-content/05.discussion.md:9:reproducibility
-content/05.discussion.md:11:reproducibility
-content/05.discussion.md:15:dataset
-content/05.discussion.md:15:dataset
+content/05.discussion.md:14:centroids
+content/05.discussion.md:14:reproducibility
+content/05.discussion.md:16:reproducibility
+content/05.discussion.md:18:dataset
+content/05.discussion.md:18:dataset
 content/90.back-matter.md:2:kaggle
 content/90.back-matter.md:2:Kaggle
 content/90.back-matter.md:2:nhtsa
