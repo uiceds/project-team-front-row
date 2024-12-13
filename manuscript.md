@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-13" />
   <meta name="citation_publication_date" content="2024-12-13" />
   <meta property="article:published_time" content="2024-12-13" />
-  <meta name="dc.modified" content="2024-12-13T22:03:07+00:00" />
-  <meta property="article:modified_time" content="2024-12-13T22:03:07+00:00" />
+  <meta name="dc.modified" content="2024-12-13T22:04:41+00:00" />
+  <meta property="article:modified_time" content="2024-12-13T22:04:41+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/d1d21488d99d49a654086306d8f72c1a53fc21eb/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/d1d21488d99d49a654086306d8f72c1a53fc21eb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/d1d21488d99d49a654086306d8f72c1a53fc21eb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/d7fc17809beb07fca5c3cb51dab05c6b273ab8a5/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/d7fc17809beb07fca5c3cb51dab05c6b273ab8a5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/d7fc17809beb07fca5c3cb51dab05c6b273ab8a5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/d1d21488d99d49a654086306d8f72c1a53fc21eb/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/d7fc17809beb07fca5c3cb51dab05c6b273ab8a5/))
 was automatically generated
-from [uiceds/project-team-front-row@d1d2148](https://github.com/uiceds/project-team-front-row/tree/d1d21488d99d49a654086306d8f72c1a53fc21eb)
+from [uiceds/project-team-front-row@d7fc178](https://github.com/uiceds/project-team-front-row/tree/d7fc17809beb07fca5c3cb51dab05c6b273ab8a5)
 on December 13, 2024.
 </em></small>
 
@@ -283,23 +283,11 @@ Figure 7 below depicts all of the drunk driving incidents that occurred in Illin
 
 ![Illinois DD Clusters](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/IL_Overall_Clusters.png "Illinois"){#fig:US-Map height=4in}
 
-Additional k-means clustering models were created to provide insights into potential high-risk zones in regards to drunk driving incidents. The seven plots below illustrate the distribution of drunk driving accidents on a daily basis, revealing notable trends throughout the week. Drunk driving incidents show a clear increase during the weekends, likely due to bars, restaurants, and clubs tending to have higher activity on Friday and Saturday nights. On weekdays, drunk driving incidents appear to be more clustered along commuter routes. However, on weekends, these clusters appear to shift to more urbanized areas where more recreational zones and leisure activities may be present. In other words, weekend incidents appear more concentrated on city centers. A k-value of 50 (i.e. 50 centroid points) is used for this analysis; however, this value is arbitrary and can be adjusted to suit the needs of policymakers as to where resources can be allocated to most efficiently drunk driving incidents.
+Additional k-means clustering models were created to provide insights into potential high-risk zones in regards to drunk driving incidents. The seven plots below in Figure 8 illustrate the distribution of drunk driving accidents on a daily basis, revealing notable trends throughout the week. Drunk driving incidents show a clear increase during the weekends, likely due to bars, restaurants, and clubs tending to have higher activity on Friday and Saturday nights. On weekdays, drunk driving incidents appear to be more clustered along commuter routes. However, on weekends, these clusters appear to shift to more urbanized areas where more recreational zones and leisure activities may be present. In other words, weekend incidents appear more concentrated on city centers. A k-value of 50 (i.e. 50 centroid points) is used for this analysis; however, this value is arbitrary and can be adjusted to suit the needs of policymakers as to where resources can be allocated to most efficiently drunk driving incidents.
 
-![Sunday Cluster](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Sunday_Clusters.png "Sunday Cluster"){#fig:US-Map height=4in}
+![US Cluster by Day of Week](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_week.png "US Cluster by Day of Week"){#fig:US-Map height=4in}
 
-![Monday Cluster](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Monday_Clusters.png "Monday Cluster"){#fig:US-Map height=4in}
-
-![Tuesday Cluster](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Tuesday_Clusters.png "Tuesday Cluster"){#fig:US-Map height=4in}
-
-![Wednesday Cluster](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Wednesday_Clusters.png "Wednesday Cluster"){#fig:US-Map height=4in}
-
-![Thursday Cluster](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Thursday_Clusters.png "Thursday Cluster"){#fig:US-Map height=4in}
-
-![Friday Cluster](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Friday_Clusters.png "Friday Cluster"){#fig:US-Map height=4in}
-
-![Saturday Cluster](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Saturday_Clusters.png "Saturday Cluster"){#fig:US-Map height=4in}
-
-Drunk driving incidents across the entire United States  were further analyzed, as depicted by Figure 8 below. The visualization demonstrates the spatial distribution of all drunk driving accidents and the resulting clusters identified using k-means analysis, offering insight into nationwide trends. As expected, the amount of incidents are most dense in areas with higher populations. However, some major interstates contain higher amounts of centroid points than others, indicating to drivers areas they may want to avoid as well as informing law enforcement areas to increase measures to reduce drunk driving incidents.
+Drunk driving incidents across the entire United States  were further analyzed, as depicted by Figure 9 below. The visualization demonstrates the spatial distribution of all drunk driving accidents and the resulting clusters identified using k-means analysis, offering insight into nationwide trends. As expected, the amount of incidents are most dense in areas with higher populations. However, some major interstates contain higher amounts of centroid points than others, indicating to drivers areas they may want to avoid as well as informing law enforcement areas to increase measures to reduce drunk driving incidents.
 
 ![Drunk Driving Cluster](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/predictive/US_Overall_Clusters.png "Overall Drunk Driving Cluster"){#fig:US-Map height=4in}
 
