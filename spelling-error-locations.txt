@@ -33,11 +33,11 @@ content/03.exploratory.md:26:visualtion
 content/03.exploratory.md:31:datapoint
 content/04.predictive.md:10:centroid
 content/04.predictive.md:14:centroid
-content/04.predictive.md:24:centroid
-content/04.predictive.md:28:centroid
-content/04.predictive.md:28:centroids
-content/04.predictive.md:28:Centroids
-content/04.predictive.md:34:feedforward
+content/04.predictive.md:30:centroid
+content/04.predictive.md:34:centroid
+content/04.predictive.md:34:centroids
+content/04.predictive.md:34:Centroids
+content/04.predictive.md:40:feedforward
 content/05.discussion.md:1:PRJ
 content/05.discussion.md:7:centroid
 content/05.discussion.md:14:centroids
