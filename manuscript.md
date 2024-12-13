@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-12-02'
+date-meta: '2024-12-13'
 author-meta:
 - Justin Rebholz
 - Cameron Kimber
@@ -22,11 +22,11 @@ header-includes: |
   <meta name="citation_title" content="Analysis of Traffic Fatality Records" />
   <meta property="og:title" content="Analysis of Traffic Fatality Records" />
   <meta property="twitter:title" content="Analysis of Traffic Fatality Records" />
-  <meta name="dc.date" content="2024-12-02" />
-  <meta name="citation_publication_date" content="2024-12-02" />
-  <meta property="article:published_time" content="2024-12-02" />
-  <meta name="dc.modified" content="2024-12-02T05:51:25+00:00" />
-  <meta property="article:modified_time" content="2024-12-02T05:51:25+00:00" />
+  <meta name="dc.date" content="2024-12-13" />
+  <meta name="citation_publication_date" content="2024-12-13" />
+  <meta property="article:published_time" content="2024-12-13" />
+  <meta name="dc.modified" content="2024-12-13T17:41:59+00:00" />
+  <meta property="article:modified_time" content="2024-12-13T17:41:59+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/501b4781ff5d4e851faec199cc094803337dd85d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/501b4781ff5d4e851faec199cc094803337dd85d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/501b4781ff5d4e851faec199cc094803337dd85d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/abdd1d6387420ffa5e45cf35e7973849b36b6195/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/abdd1d6387420ffa5e45cf35e7973849b36b6195/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/abdd1d6387420ffa5e45cf35e7973849b36b6195/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,10 +71,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/501b4781ff5d4e851faec199cc094803337dd85d/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/abdd1d6387420ffa5e45cf35e7973849b36b6195/))
 was automatically generated
-from [uiceds/project-team-front-row@501b478](https://github.com/uiceds/project-team-front-row/tree/501b4781ff5d4e851faec199cc094803337dd85d)
-on December 2, 2024.
+from [uiceds/project-team-front-row@abdd1d6](https://github.com/uiceds/project-team-front-row/tree/abdd1d6387420ffa5e45cf35e7973849b36b6195)
+on December 13, 2024.
 </em></small>
 
 
@@ -236,7 +236,7 @@ To understand the trends in the data, we first analyzed the location of accident
   
 We then created a scatter plot to visualize the number of accidents and fatalities per accident for the United States. As seen in the figure, most of the crashes result in only one fatality, however, there are a handful of multiple fatality crashes. The scatter plot annotates the amount of crashes for drunk drivers and sober drivers next to the datapoint. 
 
-  ![Scatter Plot](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Scatter_plot.png "Scatter Plot"){#fig:Scatter-plot height=4in}
+  ![Scatter Plot](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Scatter_plot.png "DUI vs Non-DUI Accidents by Month and Fatality Count"){#fig:Scatter-plot height=6in}
 
 
 
