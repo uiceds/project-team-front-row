@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-13" />
   <meta name="citation_publication_date" content="2024-12-13" />
   <meta property="article:published_time" content="2024-12-13" />
-  <meta name="dc.modified" content="2024-12-13T17:46:53+00:00" />
-  <meta property="article:modified_time" content="2024-12-13T17:46:53+00:00" />
+  <meta name="dc.modified" content="2024-12-13T17:55:20+00:00" />
+  <meta property="article:modified_time" content="2024-12-13T17:55:20+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -47,9 +47,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-front-row/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-front-row/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/39bb10d5e22abfbd8bc8d4ea46fa070b257e0498/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/39bb10d5e22abfbd8bc8d4ea46fa070b257e0498/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/39bb10d5e22abfbd8bc8d4ea46fa070b257e0498/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-front-row/v/fd87bf61d941cadf2b5433382b889c7ca336481e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/fd87bf61d941cadf2b5433382b889c7ca336481e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-front-row/v/fd87bf61d941cadf2b5433382b889c7ca336481e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-front-row/v/39bb10d5e22abfbd8bc8d4ea46fa070b257e0498/))
+([permalink](https://uiceds.github.io/project-team-front-row/v/fd87bf61d941cadf2b5433382b889c7ca336481e/))
 was automatically generated
-from [uiceds/project-team-front-row@39bb10d](https://github.com/uiceds/project-team-front-row/tree/39bb10d5e22abfbd8bc8d4ea46fa070b257e0498)
+from [uiceds/project-team-front-row@fd87bf6](https://github.com/uiceds/project-team-front-row/tree/fd87bf61d941cadf2b5433382b889c7ca336481e)
 on December 13, 2024.
 </em></small>
 
@@ -236,7 +236,7 @@ To understand the trends in the data, we first analyzed the location of accident
   
 We then created a scatter plot to visualize the number of accidents and fatalities per accident for the United States. As seen in the figure, most of the crashes result in only one fatality, however, there are a handful of multiple fatality crashes. The scatter plot annotates the amount of crashes for drunk drivers and sober drivers next to the datapoint. 
 
-  ![DUI vs Non-DUI Accidents by Month and Fatality Count](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Scatter_plot.png "DUI vs Non-DUI Accidents by Month and Fatality Count"){#fig:Scatter-plot height=6in}
+  ![DUI vs Non-DUI Accidents by Month and Fatality Count](https://raw.githubusercontent.com/uiceds/project-team-front-row/main/content/images/exploratory/Scatter_plot.png "DUI vs Non-DUI Accidents by Month and Fatality Count"){#fig:Scatter-plot height=6.5in}
 
 
 
